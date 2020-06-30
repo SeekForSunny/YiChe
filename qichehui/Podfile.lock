@@ -1,0 +1,98 @@
+PODS:
+  - Alamofire (4.9.1)
+  - FBRetainCycleDetector (0.1.4)
+  - FSPagerView (0.8.3)
+  - HandyJSON (5.0.1)
+  - Kingfisher (4.10.1)
+  - MLeaksFinder (1.0.0):
+    - FBRetainCycleDetector
+  - ObjectMapper (3.5.1)
+  - PINCache (3.0.1-beta.6):
+    - PINCache/Arc-exception-safe (= 3.0.1-beta.6)
+    - PINCache/Core (= 3.0.1-beta.6)
+  - PINCache/Arc-exception-safe (3.0.1-beta.6):
+    - PINCache/Core
+  - PINCache/Core (3.0.1-beta.6):
+    - PINOperation (~> 1.1.0)
+  - PINOperation (1.1.2)
+  - PINRemoteImage/Core (3.0.0-beta.13):
+    - PINOperation
+  - PINRemoteImage/iOS (3.0.0-beta.13):
+    - PINRemoteImage/Core
+  - PINRemoteImage/PINCache (3.0.0-beta.13):
+    - PINCache (= 3.0.1-beta.6)
+    - PINRemoteImage/Core
+  - RTRootNavigationController (0.7.2):
+    - RTRootNavigationController/Core (= 0.7.2)
+  - RTRootNavigationController/Core (0.7.2)
+  - SnapKit (4.2.0)
+  - SwiftyJSON (5.0.0)
+  - Texture (2.8.1):
+    - Texture/AssetsLibrary (= 2.8.1)
+    - Texture/Core (= 2.8.1)
+    - Texture/MapKit (= 2.8.1)
+    - Texture/Photos (= 2.8.1)
+    - Texture/PINRemoteImage (= 2.8.1)
+    - Texture/Video (= 2.8.1)
+  - Texture/AssetsLibrary (2.8.1):
+    - Texture/Core
+  - Texture/Core (2.8.1)
+  - Texture/MapKit (2.8.1):
+    - Texture/Core
+  - Texture/Photos (2.8.1):
+    - Texture/Core
+  - Texture/PINRemoteImage (2.8.1):
+    - PINRemoteImage/iOS (= 3.0.0-beta.13)
+    - PINRemoteImage/PINCache
+    - Texture/Core
+  - Texture/Video (2.8.1):
+    - Texture/Core
+
+DEPENDENCIES:
+  - Alamofire
+  - FSPagerView
+  - HandyJSON
+  - Kingfisher
+  - MLeaksFinder
+  - ObjectMapper
+  - RTRootNavigationController
+  - SnapKit
+  - SwiftyJSON
+  - Texture
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - FBRetainCycleDetector
+    - FSPagerView
+    - HandyJSON
+    - Kingfisher
+    - MLeaksFinder
+    - ObjectMapper
+    - PINCache
+    - PINOperation
+    - PINRemoteImage
+    - RTRootNavigationController
+    - SnapKit
+    - SwiftyJSON
+    - Texture
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  FBRetainCycleDetector: 46f8179bbb1c587deee3ea838a1a3ee02acf5015
+  FSPagerView: 670405b2f18e2a87fa37f20b00de783e562c25a8
+  HandyJSON: d45b8415c501e3affc59ca9762c1197ff0feb646
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  MLeaksFinder: 8c435bd2f6d070af18cff082b503b21adc130fc0
+  ObjectMapper: 70187b8941977c62ccfb423caf6b50be405cabf0
+  PINCache: d195fdba255283f7e9900a55e3cced377f431f9b
+  PINOperation: 24b774353ca248fcf87d67b2d61eef42087c125a
+  PINRemoteImage: d6d51c5d2adda55f1ce30c96e850b6c4ebd2856a
+  RTRootNavigationController: 8344c2352d6d40fa370d0366efae2c84a945213f
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  Texture: 8ecf6984065a1e54f06bf97b349ecca28582acd7
+
+PODFILE CHECKSUM: f896743ffa6528c818dba8cabca0991bc94c9dcc
+
+COCOAPODS: 1.8.4

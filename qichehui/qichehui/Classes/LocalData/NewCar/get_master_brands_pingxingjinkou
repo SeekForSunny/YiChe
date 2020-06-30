@@ -1,0 +1,186 @@
+{
+    "status": "1",
+    "message": "success",
+    "data": [{
+        "group": "A",
+        "items": [{
+            "logoUrl": "http://image.bitautoimg.com/wap/car/3/9.png?v=0708",
+            "brandId": 9,
+            "brandName": "奥迪"
+        }, {
+            "logoUrl": "http://image.bitautoimg.com/wap/car/3/92.png?v=0708",
+            "brandId": 92,
+            "brandName": "阿尔法·罗密欧"
+        }, {
+            "logoUrl": "http://image.bitautoimg.com/wap/car/3/268.png?v=0708",
+            "brandId": 268,
+            "brandName": "ALPINA"
+        }]
+    }, {
+        "group": "B",
+        "items": [{
+            "logoUrl": "http://image.bitautoimg.com/wap/car/3/2.png?v=0708",
+            "brandId": 2,
+            "brandName": "奔驰"
+        }, {
+            "logoUrl": "http://image.bitautoimg.com/wap/car/3/3.png?v=0708",
+            "brandId": 3,
+            "brandName": "宝马"
+        }, {
+            "logoUrl": "http://image.bitautoimg.com/wap/car/3/82.png?v=0708",
+            "brandId": 82,
+            "brandName": "保时捷"
+        }, {
+            "logoUrl": "http://image.bitautoimg.com/wap/car/3/85.png?v=0708",
+            "brandId": 85,
+            "brandName": "宾利"
+        }, {
+            "logoUrl": "http://image.bitautoimg.com/wap/car/3/135.png?v=0708",
+            "brandId": 135,
+            "brandName": "布加迪"
+        }, {
+            "logoUrl": "http://image.bitautoimg.com/wap/car/3/172.png?v=0708",
+            "brandId": 172,
+            "brandName": "巴博斯"
+        }]
+    }, {
+        "group": "D",
+        "items": [{
+            "logoUrl": "http://image.bitautoimg.com/wap/car/3/8.png?v=0708",
+            "brandId": 8,
+            "brandName": "大众"
+        }, {
+            "logoUrl": "http://image.bitautoimg.com/wap/car/3/113.png?v=0708",
+            "brandId": 113,
+            "brandName": "道奇"
+        }]
+    }, {
+        "group": "F",
+        "items": [{
+            "logoUrl": "http://image.bitautoimg.com/wap/car/3/7.png?v=0708",
+            "brandId": 7,
+            "brandName": "丰田"
+        }, {
+            "logoUrl": "http://image.bitautoimg.com/wap/car/3/17.png?v=0708",
+            "brandId": 17,
+            "brandName": "福特"
+        }, {
+            "logoUrl": "http://image.bitautoimg.com/wap/car/3/91.png?v=0708",
+            "brandId": 91,
+            "brandName": "法拉利"
+        }]
+    }, {
+        "group": "G",
+        "items": [{
+            "logoUrl": "http://image.bitautoimg.com/wap/car/3/109.png?v=0708",
+            "brandId": 109,
+            "brandName": "GMC"
+        }]
+    }, {
+        "group": "H",
+        "items": [{
+            "logoUrl": "http://image.bitautoimg.com/wap/car/3/108.png?v=0708",
+            "brandId": 108,
+            "brandName": "悍马"
+        }]
+    }, {
+        "group": "J",
+        "items": [{
+            "logoUrl": "http://image.bitautoimg.com/wap/car/3/4.png?v=0708",
+            "brandId": 4,
+            "brandName": "Jeep"
+        }]
+    }, {
+        "group": "K",
+        "items": [{
+            "logoUrl": "http://image.bitautoimg.com/wap/car/3/51.png?v=0708",
+            "brandId": 51,
+            "brandName": "克莱斯勒"
+        }, {
+            "logoUrl": "http://image.bitautoimg.com/wap/car/3/107.png?v=0708",
+            "brandId": 107,
+            "brandName": "凯迪拉克"
+        }]
+    }, {
+        "group": "L",
+        "items": [{
+            "logoUrl": "http://image.bitautoimg.com/wap/car/3/16.png?v=0708",
+            "brandId": 16,
+            "brandName": "铃木"
+        }, {
+            "logoUrl": "http://image.bitautoimg.com/wap/car/3/80.png?v=0708",
+            "brandId": 80,
+            "brandName": "劳斯莱斯"
+        }, {
+            "logoUrl": "http://image.bitautoimg.com/wap/car/3/86.png?v=0708",
+            "brandId": 86,
+            "brandName": "兰博基尼"
+        }, {
+            "logoUrl": "http://image.bitautoimg.com/wap/car/3/94.png?v=0708",
+            "brandId": 94,
+            "brandName": "雷克萨斯"
+        }, {
+            "logoUrl": "http://image.bitautoimg.com/wap/car/3/95.png?v=0708",
+            "brandId": 95,
+            "brandName": "林肯"
+        }, {
+            "logoUrl": "http://image.bitautoimg.com/wap/car/3/96.png?v=0708",
+            "brandId": 96,
+            "brandName": "路虎"
+        }, {
+            "logoUrl": "http://image.bitautoimg.com/wap/car/3/99.png?v=0708",
+            "brandId": 99,
+            "brandName": "雷诺"
+        }]
+    }, {
+        "group": "M",
+        "items": [{
+            "logoUrl": "http://image.bitautoimg.com/wap/car/3/93.png?v=0708",
+            "brandId": 93,
+            "brandName": "玛莎拉蒂"
+        }, {
+            "logoUrl": "http://image.bitautoimg.com/wap/car/3/183.png?v=0708",
+            "brandId": 183,
+            "brandName": "迈凯伦"
+        }]
+    }, {
+        "group": "R",
+        "items": [{
+            "logoUrl": "http://image.bitautoimg.com/wap/car/3/30.png?v=0708",
+            "brandId": 30,
+            "brandName": "日产"
+        }]
+    }, {
+        "group": "S",
+        "items": [{
+            "logoUrl": "http://image.bitautoimg.com/wap/car/3/25.png?v=0708",
+            "brandId": 25,
+            "brandName": "三菱"
+        }]
+    }, {
+        "group": "W",
+        "items": [{
+            "logoUrl": "http://image.bitautoimg.com/wap/car/3/19.png?v=0708",
+            "brandId": 19,
+            "brandName": "沃尔沃"
+        }]
+    }, {
+        "group": "X",
+        "items": [{
+            "logoUrl": "http://image.bitautoimg.com/wap/car/3/6.png?v=0708",
+            "brandId": 6,
+            "brandName": "雪铁龙"
+        }, {
+            "logoUrl": "http://image.bitautoimg.com/wap/car/3/49.png?v=0708",
+            "brandId": 49,
+            "brandName": "雪佛兰"
+        }]
+    }, {
+        "group": "Y",
+        "items": [{
+            "logoUrl": "http://image.bitautoimg.com/wap/car/3/100.png?v=0708",
+            "brandId": 100,
+            "brandName": "英菲尼迪"
+        }]
+    }]
+}

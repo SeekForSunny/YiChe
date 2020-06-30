@@ -1,0 +1,1047 @@
+{
+    "data": [{
+        "id": 1469,
+        "productType": 1,
+        "name": "2019圣诞马克杯",
+        "cover": "http://image.bitautoimg.com/wapimg-486-486/wapimg-486-486/coins/mall/20191203/w486_h486_871e55b44dc7445993de805da468d473.jpg",
+        "coins": 1390,
+        "price": 139.0,
+        "labels": [{
+            "name": "新品上新"
+        }],
+        "inventory": 345,
+        "description": "易车原创精致好物",
+        "arrivalNoticeStatus": 1,
+        "isRemark": 2,
+        "remark": "",
+        "exchangeTitle": "马上兑换",
+        "slideImages": [{
+            "imgUrl": "http://image.bitautoimg.com/wapimg-1125-1125/coins/mall/20191203/w1125_h1125_ebea304d1d9e43b782b0e7dc41f53b91.jpg",
+            "width": 1125,
+            "height": 1125
+        }],
+        "detailImages": [{
+            "imgUrl": "http://image.bitautoimg.com/wapimg-750-0/coins/mall/20191203/w750_h2822_58667990e987438785bbb41eeac85e9a.jpg",
+            "width": 750,
+            "height": 2822
+        }, {
+            "imgUrl": "http://image.bitautoimg.com/wapimg-750-0/coins/mall/20191203/w750_h1788_4cc0bd6c63d04d08b9994a2e80d4bfa1.jpg",
+            "width": 750,
+            "height": 1788
+        }, {
+            "imgUrl": "http://image.bitautoimg.com/wapimg-750-0/coins/mall/20191203/w750_h1788_bf90e75fb52b437aa269a6cbac2aabd3.jpg",
+            "width": 750,
+            "height": 1788
+        }, {
+            "imgUrl": "http://image.bitautoimg.com/wapimg-750-0/coins/mall/20191203/w750_h1997_3284a9b5392f4cf092fa8919b365cf22.jpg",
+            "width": 750,
+            "height": 1997
+        }],
+        "categoryId": 67,
+        "shelvesTime": "2019-12-09 09:00:00",
+        "dismountTime": "2019-12-31 23:55:00",
+        "skus": [{
+            "skuId": 12753,
+            "stockNumber": 345,
+            "attributes": [{
+                "attrId": 40,
+                "attrValueId": 2666,
+                "attrValue": "套装"
+            }]
+        }],
+        "attributes": [{
+            "attrId": 40,
+            "attrName": "包装",
+            "values": [{
+                "attrValueId": 2666,
+                "attrValue": "套装"
+            }]
+        }],
+        "exchange": true,
+        "services": ["易车原创", "包邮"],
+        "stockNumber": 345,
+        "saleStatus": 1,
+        "arrivalNoticeTitle": "到货通知"
+    }, {
+        "id": 1462,
+        "productType": 1,
+        "name": "庚子年易小鲨台历",
+        "cover": "http://image.bitautoimg.com/wapimg-486-486/wapimg-486-486/coins/mall/20191203/w486_h486_ee9a049c8b7e401e8cc980f55ed41d13.jpg",
+        "coins": 390,
+        "price": 39.0,
+        "labels": [{
+            "name": "新品上新"
+        }],
+        "inventory": 169,
+        "description": "易车原创精致好物",
+        "arrivalNoticeStatus": 1,
+        "isRemark": 2,
+        "remark": "",
+        "exchangeTitle": "马上兑换",
+        "slideImages": [{
+            "imgUrl": "http://image.bitautoimg.com/wapimg-1125-1125/coins/mall/20191128/w1125_h1125_bde24ddbeeed411eba4e54ab90d0eb6e.jpg",
+            "width": 1125,
+            "height": 1125
+        }],
+        "detailImages": [{
+            "imgUrl": "http://image.bitautoimg.com/wapimg-750-0/coins/mall/20191128/w750_h2822_6299919dd8454821a33909c844f1c499.jpg",
+            "width": 750,
+            "height": 2822
+        }, {
+            "imgUrl": "http://image.bitautoimg.com/wapimg-750-0/coins/mall/20191128/w750_h1788_b534fa8cd743445a9864453a930cd611.jpg",
+            "width": 750,
+            "height": 1788
+        }, {
+            "imgUrl": "http://image.bitautoimg.com/wapimg-750-0/coins/mall/20191128/w750_h1788_98c2700ba2cf446193e234462a8ce20e.jpg",
+            "width": 750,
+            "height": 1788
+        }, {
+            "imgUrl": "http://image.bitautoimg.com/wapimg-750-0/coins/mall/20191128/w750_h1997_3e91edadef544660bf75e3394a3d7218.jpg",
+            "width": 750,
+            "height": 1997
+        }, {
+            "imgUrl": "http://image.bitautoimg.com/wapimg-750-0/coins/mall/20191128/w750_h263_530f0cdc51954b74b28a2c6a959a02bd.jpg",
+            "width": 750,
+            "height": 263
+        }],
+        "categoryId": 67,
+        "shelvesTime": "2019-12-02 09:00:00",
+        "dismountTime": "2020-06-12 14:50:00",
+        "skus": [{
+            "skuId": 12655,
+            "stockNumber": 169,
+            "attributes": [{
+                "attrId": 33,
+                "attrValueId": 2624,
+                "attrValue": "个"
+            }]
+        }],
+        "attributes": [{
+            "attrId": 33,
+            "attrName": "型号",
+            "values": [{
+                "attrValueId": 2624,
+                "attrValue": "个"
+            }]
+        }],
+        "exchange": true,
+        "services": ["易车原创", "包邮"],
+        "stockNumber": 169,
+        "saleStatus": 1,
+        "arrivalNoticeTitle": "到货通知"
+    }, {
+        "id": 1357,
+        "productType": 1,
+        "name": "印花围巾",
+        "cover": "http://image.bitautoimg.com/wapimg-486-486/wapimg-486-486/coins/mall/20191111/w486_h486_b98a8b51ea3545059a6240038cdfb2d2.jpg",
+        "coins": 790,
+        "price": 79.0,
+        "labels": [],
+        "inventory": 97,
+        "description": "易车原创精致好物",
+        "arrivalNoticeStatus": 1,
+        "isRemark": 2,
+        "remark": "",
+        "exchangeTitle": "马上兑换",
+        "slideImages": [{
+            "imgUrl": "http://image.bitautoimg.com/wapimg-1125-1125/coins/mall/20190912/w1125_h1125_dd54e41bcc804c74af22649c06549061.jpg",
+            "width": 1125,
+            "height": 1125
+        }],
+        "detailImages": [{
+            "imgUrl": "http://image.bitautoimg.com/wapimg-750-0/coins/mall/20190912/w750_h2212_f9a1a6adb149451a993ef7a9c73182c6.jpg",
+            "width": 750,
+            "height": 2212
+        }, {
+            "imgUrl": "http://image.bitautoimg.com/wapimg-750-0/coins/mall/20190912/w750_h3030_5866f954249e4be28d6be55411e381fd.jpg",
+            "width": 750,
+            "height": 3030
+        }],
+        "categoryId": 67,
+        "shelvesTime": "2019-10-30 16:31:00",
+        "dismountTime": "2099-12-31 00:00:00",
+        "skus": [{
+            "skuId": 12438,
+            "stockNumber": 97,
+            "attributes": [{
+                "attrId": 40,
+                "attrValueId": 2414,
+                "attrValue": "个"
+            }]
+        }],
+        "attributes": [{
+            "attrId": 40,
+            "attrName": "包装",
+            "values": [{
+                "attrValueId": 2414,
+                "attrValue": "个"
+            }]
+        }],
+        "exchange": true,
+        "services": ["易车原创", "包邮"],
+        "stockNumber": 97,
+        "saleStatus": 1,
+        "arrivalNoticeTitle": "到货通知"
+    }, {
+        "id": 1399,
+        "productType": 1,
+        "name": "潮鲨红色卫衣",
+        "cover": "http://image.bitautoimg.com/wapimg-486-486/wapimg-486-486/coins/mall/20190925/w486_h486_fa50766dda5043faa49b11d7685c8132.jpg",
+        "coins": 1390,
+        "price": 139.0,
+        "labels": [],
+        "inventory": 33,
+        "description": "易车原创精致好物",
+        "arrivalNoticeStatus": 1,
+        "isRemark": 2,
+        "remark": "",
+        "exchangeTitle": "马上兑换",
+        "slideImages": [{
+            "imgUrl": "http://image.bitautoimg.com/wapimg-1125-1125/coins/mall/20190925/w1125_h1125_12353690259645debcd291921292eaf2.jpg",
+            "width": 1125,
+            "height": 1125
+        }],
+        "detailImages": [{
+            "imgUrl": "http://image.bitautoimg.com/wapimg-750-0/coins/mall/20190925/w750_h3074_d805ed80ee8646138a87fb66aeb85fc4.jpg",
+            "width": 750,
+            "height": 3074
+        }, {
+            "imgUrl": "http://image.bitautoimg.com/wapimg-750-0/coins/mall/20190925/w750_h2644_36326d3d55b74ee1a7d311e99366ce5d.jpg",
+            "width": 750,
+            "height": 2644
+        }, {
+            "imgUrl": "http://image.bitautoimg.com/wapimg-750-0/coins/mall/20190925/w750_h750_6bce2902f96c4078b4fe1d3fca07e654.jpg",
+            "width": 750,
+            "height": 750
+        }],
+        "categoryId": 67,
+        "shelvesTime": "2019-11-13 13:01:09",
+        "dismountTime": "2099-12-31 00:00:00",
+        "skus": [{
+            "skuId": 12480,
+            "stockNumber": 33,
+            "attributes": [{
+                "attrId": 19,
+                "attrValueId": 2456,
+                "attrValue": "S"
+            }]
+        }, {
+            "skuId": 12487,
+            "stockNumber": 0,
+            "attributes": [{
+                "attrId": 19,
+                "attrValueId": 2463,
+                "attrValue": "M"
+            }]
+        }, {
+            "skuId": 12494,
+            "stockNumber": 0,
+            "attributes": [{
+                "attrId": 19,
+                "attrValueId": 2470,
+                "attrValue": "L"
+            }]
+        }, {
+            "skuId": 12501,
+            "stockNumber": 0,
+            "attributes": [{
+                "attrId": 19,
+                "attrValueId": 2477,
+                "attrValue": "XL"
+            }]
+        }, {
+            "skuId": 12508,
+            "stockNumber": 0,
+            "attributes": [{
+                "attrId": 19,
+                "attrValueId": 2484,
+                "attrValue": "2XL"
+            }]
+        }],
+        "attributes": [{
+            "attrId": 19,
+            "attrName": "尺寸",
+            "values": [{
+                "attrValueId": 2456,
+                "attrValue": "S"
+            }, {
+                "attrValueId": 2463,
+                "attrValue": "M"
+            }, {
+                "attrValueId": 2470,
+                "attrValue": "L"
+            }, {
+                "attrValueId": 2477,
+                "attrValue": "XL"
+            }, {
+                "attrValueId": 2484,
+                "attrValue": "2XL"
+            }]
+        }],
+        "exchange": true,
+        "services": ["易车原创", "包邮"],
+        "stockNumber": 33,
+        "saleStatus": 1,
+        "arrivalNoticeTitle": "到货通知"
+    }, {
+        "id": 1392,
+        "productType": 1,
+        "name": "小鲨双面抱枕",
+        "cover": "http://image.bitautoimg.com/wapimg-486-486/wapimg-486-486/coins/mall/20190925/w486_h486_ea5f72747efd49cbb4822ea023c26548.jpg",
+        "coins": 290,
+        "price": 29.0,
+        "labels": [],
+        "inventory": 4467,
+        "description": "易车原创精致好物",
+        "arrivalNoticeStatus": 1,
+        "isRemark": 2,
+        "remark": "",
+        "exchangeTitle": "马上兑换",
+        "slideImages": [{
+            "imgUrl": "http://image.bitautoimg.com/wapimg-1125-1125/coins/mall/20190925/w1125_h1125_de5bd277f729464a976c422ea29da764.jpg",
+            "width": 1125,
+            "height": 1125
+        }],
+        "detailImages": [{
+            "imgUrl": "http://image.bitautoimg.com/wapimg-750-0/coins/mall/20191118/w750_h3074_303c693332bd4c29995a072f2ea078a0.jpg",
+            "width": 750,
+            "height": 3074
+        }, {
+            "imgUrl": "http://image.bitautoimg.com/wapimg-750-0/coins/mall/20191118/w750_h2644_1fa361bea28248f8a172db035a2c25e5.jpg",
+            "width": 750,
+            "height": 2644
+        }],
+        "categoryId": 67,
+        "shelvesTime": "2019-11-14 09:10:00",
+        "dismountTime": "2099-12-31 00:00:00",
+        "skus": [{
+            "skuId": 12473,
+            "stockNumber": 4467,
+            "attributes": [{
+                "attrId": 40,
+                "attrValueId": 2449,
+                "attrValue": "个"
+            }]
+        }],
+        "attributes": [{
+            "attrId": 40,
+            "attrName": "包装",
+            "values": [{
+                "attrValueId": 2449,
+                "attrValue": "个"
+            }]
+        }],
+        "exchange": true,
+        "services": ["易车原创", "包邮"],
+        "stockNumber": 4467,
+        "saleStatus": 1,
+        "arrivalNoticeTitle": "到货通知"
+    }, {
+        "id": 1350,
+        "name": "车载收纳袋",
+        "cover": "http://image.bitautoimg.com/wapimg-486-486/wapimg-486-486/coins/mall/20190909/w486_h486_e870dc81d8994158b54cc3102591280b.jpg",
+        "coins": 680,
+        "price": 68.0,
+        "inventory": 226
+    }, {
+        "id": 1322,
+        "productType": 1,
+        "name": "胶囊充电宝",
+        "cover": "http://image.bitautoimg.com/wapimg-486-486/wapimg-486-486/coins/mall/20190906/w486_h486_632f21bd01624e828272c2f42d6b58fe.jpg",
+        "coins": 2990,
+        "price": 299.0,
+        "labels": [],
+        "inventory": 152,
+        "description": "易车甄选精致好物",
+        "arrivalNoticeStatus": 1,
+        "isRemark": 2,
+        "remark": "",
+        "exchangeTitle": "马上兑换",
+        "slideImages": [{
+            "imgUrl": "http://image.bitautoimg.com/wapimg-1125-1125/coins/mall/20190906/w1125_h1125_8c0349ce9fc240c9ba9c177563e91e98.jpg",
+            "width": 1125,
+            "height": 1125
+        }],
+        "detailImages": [{
+            "imgUrl": "http://image.bitautoimg.com/wapimg-750-0/coins/mall/20190906/w750_h3074_18be9650dd624642bfacf1c3ca04513f.jpg",
+            "width": 750,
+            "height": 3074
+        }, {
+            "imgUrl": "http://image.bitautoimg.com/wapimg-750-0/coins/mall/20190906/w750_h2644_69ad4488de0e4c759d3813c67c4fe988.jpg",
+            "width": 750,
+            "height": 2644
+        }],
+        "categoryId": 74,
+        "shelvesTime": "2019-09-09 09:00:00",
+        "dismountTime": "2020-03-01 07:35:00",
+        "skus": [{
+            "skuId": 12403,
+            "stockNumber": 152,
+            "attributes": [{
+                "attrId": 40,
+                "attrValueId": 2379,
+                "attrValue": "盒"
+            }]
+        }],
+        "attributes": [{
+            "attrId": 40,
+            "attrName": "包装",
+            "values": [{
+                "attrValueId": 2379,
+                "attrValue": "盒"
+            }]
+        }],
+        "exchange": true,
+        "services": ["易车甄选", "包邮"],
+        "stockNumber": 152,
+        "saleStatus": 1,
+        "arrivalNoticeTitle": "到货通知"
+    }, {
+        "id": 1315,
+        "productType": 1,
+        "name": "JBL音响",
+        "cover": "http://image.bitautoimg.com/wapimg-486-486/wapimg-486-486/coins/mall/20190906/w486_h486_9b7501d4a4f84fce83f0716552ab8553.jpg",
+        "coins": 2990,
+        "price": 299.0,
+        "labels": [{
+            "name": "新品上新"
+        }],
+        "inventory": 536,
+        "description": "易车甄选精致好物",
+        "arrivalNoticeStatus": 1,
+        "isRemark": 2,
+        "remark": "",
+        "exchangeTitle": "马上兑换",
+        "slideImages": [{
+            "imgUrl": "http://image.bitautoimg.com/wapimg-1125-1125/coins/mall/20190906/w1125_h1125_4e1f0f804f7645fdaeaca06adf7aa309.jpg",
+            "width": 1125,
+            "height": 1125
+        }],
+        "detailImages": [{
+            "imgUrl": "http://image.bitautoimg.com/wapimg-750-0/coins/mall/20190906/w750_h3074_d1e8e7bdac344c65bcab92599e512900.jpg",
+            "width": 750,
+            "height": 3074
+        }, {
+            "imgUrl": "http://image.bitautoimg.com/wapimg-750-0/coins/mall/20190906/w750_h2644_c6348daf680346e7a59d2fd9332e336f.jpg",
+            "width": 750,
+            "height": 2644
+        }],
+        "categoryId": 74,
+        "shelvesTime": "2019-12-09 14:54:10",
+        "dismountTime": "2099-12-31 00:00:00",
+        "skus": [{
+            "skuId": 12396,
+            "stockNumber": 536,
+            "attributes": [{
+                "attrId": 33,
+                "attrValueId": 2372,
+                "attrValue": "GO2宝石红"
+            }]
+        }],
+        "attributes": [{
+            "attrId": 33,
+            "attrName": "型号",
+            "values": [{
+                "attrValueId": 2372,
+                "attrValue": "GO2宝石红"
+            }]
+        }],
+        "exchange": true,
+        "services": ["易车甄选", "包邮"],
+        "stockNumber": 536,
+        "saleStatus": 1,
+        "arrivalNoticeTitle": "到货通知"
+    }, {
+        "id": 1287,
+        "productType": 1,
+        "name": "易小鲨晴雨伞",
+        "cover": "http://image.bitautoimg.com/wapimg-486-486/wapimg-486-486/coins/mall/20190813/w486_h486_cfc5fe75fd0540ffb87dc57a8ad79336.jpg",
+        "coins": 690,
+        "price": 69.0,
+        "labels": [],
+        "inventory": 1974,
+        "description": "易车原创精致好物",
+        "arrivalNoticeStatus": 1,
+        "isRemark": 2,
+        "remark": "",
+        "exchangeTitle": "马上兑换",
+        "slideImages": [{
+            "imgUrl": "http://image.bitautoimg.com/wapimg-1125-1125/coins/mall/20190813/w1125_h1125_5b1accdf3a30437e822c3b985f13380f.jpg",
+            "width": 1125,
+            "height": 1125
+        }],
+        "detailImages": [{
+            "imgUrl": "http://image.bitautoimg.com/wapimg-750-0/coins/mall/20190813/w750_h3074_e0a1c5e97de644ae904a79477d277652.jpg",
+            "width": 750,
+            "height": 3074
+        }, {
+            "imgUrl": "http://image.bitautoimg.com/wapimg-750-0/coins/mall/20190813/w750_h2644_e9ad31e3e3cf4fc2b46db5d3d8843cb2.jpg",
+            "width": 750,
+            "height": 2644
+        }],
+        "categoryId": 67,
+        "shelvesTime": "2019-12-09 14:59:15",
+        "dismountTime": "2099-12-31 00:00:00",
+        "skus": [{
+            "skuId": 12361,
+            "stockNumber": 1974,
+            "attributes": [{
+                "attrId": 26,
+                "attrValueId": 2337,
+                "attrValue": "蓝"
+            }]
+        }],
+        "attributes": [{
+            "attrId": 26,
+            "attrName": "颜色",
+            "values": [{
+                "attrValueId": 2337,
+                "attrValue": "蓝"
+            }]
+        }],
+        "exchange": true,
+        "services": ["易车原创", "包邮"],
+        "stockNumber": 1974,
+        "saleStatus": 1,
+        "arrivalNoticeTitle": "到货通知"
+    }, {
+        "id": 1238,
+        "productType": 1,
+        "name": "汽车防撞条",
+        "cover": "http://image.bitautoimg.com/wapimg-486-486/wapimg-486-486/coins/mall/20190802/w486_h486_b7c53c4f1cc04e5db9784e01c56136f1.jpg",
+        "coins": 490,
+        "price": 59.0,
+        "labels": [],
+        "inventory": 989,
+        "description": "易车原创精致好物",
+        "arrivalNoticeStatus": 1,
+        "isRemark": 2,
+        "remark": "",
+        "exchangeTitle": "马上兑换",
+        "slideImages": [{
+            "imgUrl": "http://image.bitautoimg.com/wapimg-1125-1125/coins/mall/20190802/w1125_h1125_bcc0abfe83a04039bd9d2ec2ce9ee209.jpg",
+            "width": 1125,
+            "height": 1125
+        }],
+        "detailImages": [{
+            "imgUrl": "http://image.bitautoimg.com/wapimg-750-0/coins/mall/20190802/w750_h1870_57c4adfe0870448398bf343e7320e1d9.jpg",
+            "width": 750,
+            "height": 1870
+        }, {
+            "imgUrl": "http://image.bitautoimg.com/wapimg-750-0/coins/mall/20190802/w750_h1871_b6d615fc21c24f34a286712461a96804.jpg",
+            "width": 750,
+            "height": 1871
+        }, {
+            "imgUrl": "http://image.bitautoimg.com/wapimg-750-0/coins/mall/20190802/w750_h1870_69efde75222a4d399eea6fe2688c2456.jpg",
+            "width": 750,
+            "height": 1870
+        }],
+        "categoryId": 60,
+        "shelvesTime": "2019-12-09 14:50:00",
+        "dismountTime": "2099-12-31 00:00:00",
+        "skus": [{
+            "skuId": 12249,
+            "stockNumber": 989,
+            "attributes": [{
+                "attrId": 40,
+                "attrValueId": 2225,
+                "attrValue": "盒装"
+            }]
+        }],
+        "attributes": [{
+            "attrId": 40,
+            "attrName": "包装",
+            "values": [{
+                "attrValueId": 2225,
+                "attrValue": "盒装"
+            }]
+        }],
+        "exchange": true,
+        "services": ["易车原创", "包邮"],
+        "stockNumber": 989,
+        "saleStatus": 1,
+        "arrivalNoticeTitle": "到货通知"
+    }, {
+        "id": 1161,
+        "productType": 1,
+        "name": "易小鲨超大公仔",
+        "cover": "http://image.bitautoimg.com/wapimg-486-486/wapimg-486-486/coins/mall/20190715/w486_h486_1316c92a269f468e94976d07605cee00.jpg",
+        "coins": 1490,
+        "price": 149.0,
+        "labels": [],
+        "inventory": 96,
+        "description": "易车原创精致好物",
+        "arrivalNoticeStatus": 1,
+        "isRemark": 2,
+        "remark": "",
+        "exchangeTitle": "马上兑换",
+        "slideImages": [{
+            "imgUrl": "http://image.bitautoimg.com/wapimg-1125-1125/coins/mall/20190715/w1125_h1125_399d7cb2756a469caee8c4d7ed1b469a.jpg",
+            "width": 1125,
+            "height": 1125
+        }],
+        "detailImages": [{
+            "imgUrl": "http://image.bitautoimg.com/wapimg-750-0/coins/mall/20190715/w750_h2242_88d0ffe1075d4943bbe80b117778c7c0.jpg",
+            "width": 750,
+            "height": 2242
+        }, {
+            "imgUrl": "http://image.bitautoimg.com/wapimg-750-0/coins/mall/20190715/w750_h2243_5bac7984e1f94a0e9b504a132caf7404.jpg",
+            "width": 750,
+            "height": 2243
+        }, {
+            "imgUrl": "http://image.bitautoimg.com/wapimg-750-0/coins/mall/20190715/w750_h2242_76fed061c67647aa89d1c37071b01b9e.jpg",
+            "width": 750,
+            "height": 2242
+        }],
+        "categoryId": 67,
+        "shelvesTime": "2019-07-16 14:48:00",
+        "dismountTime": "2099-12-31 00:00:00",
+        "skus": [{
+            "skuId": 12151,
+            "stockNumber": 96,
+            "attributes": [{
+                "attrId": 19,
+                "attrValueId": 2134,
+                "attrValue": "50CM"
+            }]
+        }],
+        "attributes": [{
+            "attrId": 19,
+            "attrName": "尺寸",
+            "values": [{
+                "attrValueId": 2134,
+                "attrValue": "50CM"
+            }]
+        }],
+        "exchange": true,
+        "services": ["易车原创", "包邮"],
+        "stockNumber": 96,
+        "saleStatus": 1,
+        "arrivalNoticeTitle": "到货通知"
+    }, {
+        "id": 1140,
+        "name": "易小鲨皮质钥匙扣",
+        "cover": "http://image.bitautoimg.com/wapimg-486-486/wapimg-486-486/coins/mall/20190707/w486_h486_ccc716d2618a4f11a7f796846d2a191f.jpg",
+        "coins": 660,
+        "price": 66.0,
+        "inventory": 300
+    }, {
+        "id": 1119,
+        "productType": 1,
+        "name": "三合一笔记本",
+        "cover": "http://image.bitautoimg.com/wapimg-486-486/wapimg-486-486/coins/mall/20190701/w486_h486_b03d34f36c184e5bb77590b6d6b7a150.jpg",
+        "coins": 390,
+        "price": 39.0,
+        "labels": [{
+            "name": "新品上新"
+        }],
+        "inventory": 981,
+        "description": "易车原创精致好物",
+        "arrivalNoticeStatus": 1,
+        "isRemark": 2,
+        "remark": "",
+        "exchangeTitle": "马上兑换",
+        "slideImages": [{
+            "imgUrl": "http://image.bitautoimg.com/wapimg-1125-1125/coins/mall/20190701/w1125_h1125_effbf3c3163e4c96aa915d6eeee46c06.jpg",
+            "width": 1125,
+            "height": 1125
+        }],
+        "detailImages": [{
+            "imgUrl": "http://image.bitautoimg.com/wapimg-750-0/coins/mall/20190701/w750_h1951_29fd606408f44aeca24e811355305ac8.jpg",
+            "width": 750,
+            "height": 1951
+        }, {
+            "imgUrl": "http://image.bitautoimg.com/wapimg-750-0/coins/mall/20190701/w750_h1952_46ff83a3e1a34cc8bd98ef151b9a4906.jpg",
+            "width": 750,
+            "height": 1952
+        }, {
+            "imgUrl": "http://image.bitautoimg.com/wapimg-750-0/coins/mall/20190701/w750_h1951_8f56105d8df143deb39d11533d0d7345.jpg",
+            "width": 750,
+            "height": 1951
+        }],
+        "categoryId": 53,
+        "shelvesTime": "2019-12-09 14:55:15",
+        "dismountTime": "2099-12-31 00:00:00",
+        "skus": [{
+            "skuId": 12088,
+            "stockNumber": 981,
+            "attributes": [{
+                "attrId": 33,
+                "attrValueId": 2071,
+                "attrValue": "套装"
+            }]
+        }],
+        "attributes": [{
+            "attrId": 33,
+            "attrName": "型号",
+            "values": [{
+                "attrValueId": 2071,
+                "attrValue": "套装"
+            }]
+        }],
+        "exchange": true,
+        "services": ["易车原创", "包邮"],
+        "stockNumber": 981,
+        "saleStatus": 1,
+        "arrivalNoticeTitle": "到货通知"
+    }, {
+        "id": 1112,
+        "productType": 1,
+        "name": "易小鲨公仔挪车牌 ",
+        "cover": "http://image.bitautoimg.com/wapimg-486-486/wapimg-486-486/coins/mall/20190624/w486_h486_affc6c3a978b480e9c6625d8e8c8b7c9.jpg",
+        "coins": 690,
+        "price": 69.0,
+        "labels": [],
+        "inventory": 27,
+        "description": "易车原创精致好物",
+        "arrivalNoticeStatus": 1,
+        "isRemark": 2,
+        "remark": "",
+        "exchangeTitle": "马上兑换",
+        "slideImages": [{
+            "imgUrl": "http://image.bitautoimg.com/wapimg-1125-1125/coins/mall/20190624/w1125_h1125_d9137414f0a34facb6e8d23db6a6aecf.jpg",
+            "width": 1125,
+            "height": 1125
+        }],
+        "detailImages": [{
+            "imgUrl": "http://image.bitautoimg.com/wapimg-750-0/coins/mall/20190624/w750_h1928_7fd292b00f9c4b4ca518b2d25438b79e.jpg",
+            "width": 750,
+            "height": 1928
+        }, {
+            "imgUrl": "http://image.bitautoimg.com/wapimg-750-0/coins/mall/20190624/w750_h1928_59c89f11e8754c9693b72f55f58cb5fc.jpg",
+            "width": 750,
+            "height": 1928
+        }, {
+            "imgUrl": "http://image.bitautoimg.com/wapimg-750-0/coins/mall/20190624/w750_h1928_21be2e7401a14c84a664c08779e40f40.jpg",
+            "width": 750,
+            "height": 1928
+        }],
+        "categoryId": 60,
+        "shelvesTime": "2019-12-09 15:09:22",
+        "dismountTime": "2099-12-31 00:00:00",
+        "skus": [{
+            "skuId": 12081,
+            "stockNumber": 27,
+            "attributes": [{
+                "attrId": 33,
+                "attrValueId": 2064,
+                "attrValue": "新款"
+            }]
+        }],
+        "attributes": [{
+            "attrId": 33,
+            "attrName": "型号",
+            "values": [{
+                "attrValueId": 2064,
+                "attrValue": "新款"
+            }]
+        }],
+        "exchange": true,
+        "services": ["易车原创", "包邮"],
+        "stockNumber": 27,
+        "saleStatus": 1,
+        "arrivalNoticeTitle": "到货通知"
+    }, {
+        "id": 1091,
+        "productType": 1,
+        "name": "易小鲨编织袋",
+        "cover": "http://image.bitautoimg.com/wapimg-486-486/wapimg-486-486/coins/mall/20190613/w486_h486_a087c6be269c4d0db2bed07a635e7071.jpg",
+        "coins": 169,
+        "price": 19.0,
+        "labels": [],
+        "inventory": 674,
+        "description": "易车原创精致好物",
+        "arrivalNoticeStatus": 1,
+        "isRemark": 2,
+        "remark": "",
+        "exchangeTitle": "马上兑换",
+        "slideImages": [{
+            "imgUrl": "http://image.bitautoimg.com/wapimg-1125-1125/coins/mall/20190613/w1125_h1125_7b4d8444c6db4c9582bd1c16268daedb.jpg",
+            "width": 1125,
+            "height": 1125
+        }],
+        "detailImages": [{
+            "imgUrl": "http://image.bitautoimg.com/wapimg-750-0/coins/mall/20190613/w750_h1819_155cb482bda04a738539e4df651fb1d9.jpg",
+            "width": 750,
+            "height": 1819
+        }, {
+            "imgUrl": "http://image.bitautoimg.com/wapimg-750-0/coins/mall/20190613/w750_h1819_2063f2c25ed84d678597c2def7c82f1c.jpg",
+            "width": 750,
+            "height": 1819
+        }, {
+            "imgUrl": "http://image.bitautoimg.com/wapimg-750-0/coins/mall/20190613/w750_h1819_adf430fac2c84b82829bc132ebcca595.jpg",
+            "width": 750,
+            "height": 1819
+        }],
+        "categoryId": 67,
+        "shelvesTime": "2019-06-17 10:00:00",
+        "dismountTime": "2020-12-11 10:50:00",
+        "skus": [{
+            "skuId": 12060,
+            "stockNumber": 674,
+            "attributes": [{
+                "attrId": 26,
+                "attrValueId": 2043,
+                "attrValue": "蓝"
+            }]
+        }],
+        "attributes": [{
+            "attrId": 26,
+            "attrName": "颜色",
+            "values": [{
+                "attrValueId": 2043,
+                "attrValue": "蓝"
+            }]
+        }],
+        "exchange": true,
+        "services": ["原创", "包邮"],
+        "stockNumber": 674,
+        "saleStatus": 1,
+        "arrivalNoticeTitle": "到货通知"
+    }, {
+        "id": 1077,
+        "productType": 1,
+        "name": "易小鲨地垫",
+        "cover": "http://image.bitautoimg.com/wapimg-486-486/wapimg-486-486/coins/mall/20190609/w486_h486_6c71b00bdbbc47bdbb296f5f300522d8.jpg",
+        "coins": 790,
+        "price": 79.0,
+        "labels": [],
+        "inventory": 723,
+        "description": "易车原创精致好物",
+        "arrivalNoticeStatus": 1,
+        "isRemark": 2,
+        "remark": "",
+        "exchangeTitle": "马上兑换",
+        "slideImages": [{
+            "imgUrl": "http://image.bitautoimg.com/wapimg-1125-1125/coins/mall/20190609/w1125_h1125_08e05ace79d6498e897b24b8080b8f71.jpg",
+            "width": 1125,
+            "height": 1125
+        }],
+        "detailImages": [{
+            "imgUrl": "http://image.bitautoimg.com/wapimg-750-0/coins/mall/20190609/w750_h1840_8f977b6081ac413aacac7fb758f8b464.jpg",
+            "width": 750,
+            "height": 1840
+        }, {
+            "imgUrl": "http://image.bitautoimg.com/wapimg-750-0/coins/mall/20190609/w750_h1840_f9f2fbddb4f240f5b5ad53924feb2784.jpg",
+            "width": 750,
+            "height": 1840
+        }, {
+            "imgUrl": "http://image.bitautoimg.com/wapimg-750-0/coins/mall/20190609/w750_h1840_22aad9f20ac747488cc9e7a316239741.jpg",
+            "width": 750,
+            "height": 1840
+        }],
+        "categoryId": 67,
+        "shelvesTime": "2019-12-09 14:56:13",
+        "dismountTime": "2099-12-31 00:00:00",
+        "skus": [{
+            "skuId": 12046,
+            "stockNumber": 723,
+            "attributes": [{
+                "attrId": 33,
+                "attrValueId": 2029,
+                "attrValue": "长方"
+            }]
+        }],
+        "attributes": [{
+            "attrId": 33,
+            "attrName": "型号",
+            "values": [{
+                "attrValueId": 2029,
+                "attrValue": "长方"
+            }]
+        }],
+        "exchange": true,
+        "services": ["易车原创", "包邮"],
+        "stockNumber": 723,
+        "saleStatus": 1,
+        "arrivalNoticeTitle": "到货通知"
+    }, {
+        "id": 1035,
+        "productType": 1,
+        "name": "扑克牌",
+        "cover": "http://image.bitautoimg.com/wapimg-486-486/wapimg-486-486/coins/mall/20190523/w486_h486_7187073a6b5d4bfa92a79a3710740336.jpg",
+        "coins": 190,
+        "price": 19.0,
+        "labels": [],
+        "inventory": 316,
+        "description": "易车原创精致好物",
+        "arrivalNoticeStatus": 1,
+        "isRemark": 2,
+        "remark": "",
+        "exchangeTitle": "马上兑换",
+        "slideImages": [{
+            "imgUrl": "http://image.bitautoimg.com/wapimg-1125-1125/coins/mall/20190523/w1125_h1125_1a5e8e2e960846249aa28da99460946f.jpg",
+            "width": 1125,
+            "height": 1125
+        }],
+        "detailImages": [{
+            "imgUrl": "http://image.bitautoimg.com/wapimg-750-0/coins/mall/20190523/w750_h1901_acee7157cb104bec851ec5d0ddf382ed.jpg",
+            "width": 750,
+            "height": 1901
+        }, {
+            "imgUrl": "http://image.bitautoimg.com/wapimg-750-0/coins/mall/20190523/w750_h1902_5e01d0de67ef4b3fb22ca504c56384d2.jpg",
+            "width": 750,
+            "height": 1902
+        }, {
+            "imgUrl": "http://image.bitautoimg.com/wapimg-750-0/coins/mall/20190523/w750_h1901_583ff513e2c74ffeae52fcfc03dc9030.jpg",
+            "width": 750,
+            "height": 1901
+        }],
+        "categoryId": 67,
+        "shelvesTime": "2019-11-14 09:07:14",
+        "dismountTime": "2099-12-31 00:00:00",
+        "skus": [{
+            "skuId": 12004,
+            "stockNumber": 316,
+            "attributes": [{
+                "attrId": 40,
+                "attrValueId": 1987,
+                "attrValue": "盒装"
+            }]
+        }],
+        "attributes": [{
+            "attrId": 40,
+            "attrName": "包装",
+            "values": [{
+                "attrValueId": 1987,
+                "attrValue": "盒装"
+            }]
+        }],
+        "exchange": true,
+        "services": ["易车原创", "包邮"],
+        "stockNumber": 316,
+        "saleStatus": 1,
+        "arrivalNoticeTitle": "到货通知"
+    }, {
+        "id": 1007,
+        "name": "行李牌",
+        "cover": "http://image.bitautoimg.com/wapimg-486-486/wapimg-486-486/coins/mall/20190510/w486_h486_f51930621bb3419a90aabebdcd839f29.jpg",
+        "coins": 390,
+        "price": 39.0,
+        "inventory": 157
+    }, {
+        "id": 1000,
+        "productType": 1,
+        "name": "商务双肩背包",
+        "cover": "http://image.bitautoimg.com/wapimg-486-486/wapimg-486-486/coins/mall/20190507/w486_h486_1ed5a67e161747838acb91658b02a158.jpg",
+        "coins": 2390,
+        "price": 239.0,
+        "labels": [{
+            "name": "爆品补货"
+        }, {
+            "name": "爆品补货"
+        }],
+        "inventory": 1000,
+        "description": "易车原创精致好物",
+        "arrivalNoticeStatus": 1,
+        "isRemark": 2,
+        "remark": "",
+        "exchangeTitle": "爆品补货",
+        "slideImages": [{
+            "imgUrl": "http://image.bitautoimg.com/wapimg-1125-1125/coins/mall/20190507/w1125_h1125_fea4cf0f8c6f45edb5811f61688952f7.jpg",
+            "width": 1125,
+            "height": 1125
+        }, {
+            "imgUrl": "http://image.bitautoimg.com/wapimg-1125-1125/coins/mall/20190507/w1125_h1125_add08df7383a4070ba3d54a750515391.jpg",
+            "width": 1125,
+            "height": 1125
+        }],
+        "detailImages": [{
+            "imgUrl": "http://image.bitautoimg.com/wapimg-750-0/coins/mall/20190507/w750_h2264_5ead42d4bc4944b19c89349bfe344978.jpg",
+            "width": 750,
+            "height": 2264
+        }, {
+            "imgUrl": "http://image.bitautoimg.com/wapimg-750-0/coins/mall/20190507/w750_h2263_cae0a787ff734f3dabf13f151eddaa99.jpg",
+            "width": 750,
+            "height": 2263
+        }, {
+            "imgUrl": "http://image.bitautoimg.com/wapimg-750-0/coins/mall/20190507/w750_h2264_b113ca1768cd4ddea4b13d14370cc679.jpg",
+            "width": 750,
+            "height": 2264
+        }],
+        "categoryId": 67,
+        "shelvesTime": "2019-12-03 22:10:15",
+        "dismountTime": "2099-12-31 00:00:00",
+        "skus": [{
+            "skuId": 11969,
+            "stockNumber": 1000,
+            "attributes": [{
+                "attrId": 26,
+                "attrValueId": 1952,
+                "attrValue": "灰色"
+            }]
+        }],
+        "attributes": [{
+            "attrId": 26,
+            "attrName": "颜色",
+            "values": [{
+                "attrValueId": 1952,
+                "attrValue": "灰色"
+            }]
+        }],
+        "exchange": true,
+        "services": ["易车原创", "包邮"],
+        "stockNumber": 1000,
+        "saleStatus": 1,
+        "arrivalNoticeTitle": "到货通知"
+    }, {
+        "id": 972,
+        "productType": 1,
+        "name": "活页笔记本",
+        "cover": "http://image.bitautoimg.com/wapimg-486-486/wapimg-486-486/coins/mall/20190505/w486_h486_f7bf727131a84fd7aff23e3ea4ab9282.jpg",
+        "coins": 590,
+        "price": 59.0,
+        "labels": [],
+        "inventory": 440,
+        "description": "易车原创精致好物",
+        "arrivalNoticeStatus": 1,
+        "isRemark": 2,
+        "remark": "",
+        "exchangeTitle": "马上兑换",
+        "slideImages": [{
+            "imgUrl": "http://image.bitautoimg.com/wapimg-1125-1125/coins/mall/20190505/w1125_h1125_3f68ce3a36184b2bb112ef1a97539f09.jpg",
+            "width": 1125,
+            "height": 1125
+        }],
+        "detailImages": [{
+            "imgUrl": "http://image.bitautoimg.com/wapimg-750-0/coins/mall/20190505/w750_h1835_b57e574a6c484aabbbec8bb4fa44a342.jpg",
+            "width": 750,
+            "height": 1835
+        }, {
+            "imgUrl": "http://image.bitautoimg.com/wapimg-750-0/coins/mall/20190505/w750_h1835_65ae88ef6ac449b7b648bbb7a9b081d7.jpg",
+            "width": 750,
+            "height": 1835
+        }, {
+            "imgUrl": "http://image.bitautoimg.com/wapimg-750-0/coins/mall/20190505/w750_h1835_1bb97980795744f1a93b9c5110ac1580.jpg",
+            "width": 750,
+            "height": 1835
+        }],
+        "categoryId": 53,
+        "shelvesTime": "2019-07-15 15:58:00",
+        "dismountTime": "2099-12-31 00:00:00",
+        "skus": [{
+            "skuId": 11941,
+            "stockNumber": 440,
+            "attributes": [{
+                "attrId": 26,
+                "attrValueId": 1917,
+                "attrValue": "红色"
+            }]
+        }],
+        "attributes": [{
+            "attrId": 26,
+            "attrName": "颜色",
+            "values": [{
+                "attrValueId": 1917,
+                "attrValue": "红色"
+            }]
+        }],
+        "exchange": true,
+        "services": ["易车原创", "包邮"],
+        "stockNumber": 440,
+        "saleStatus": 1,
+        "arrivalNoticeTitle": "到货通知"
+    }],
+    "message": "成功",
+    "status": 1
+}

@@ -1,0 +1,17 @@
+{
+    "data": [{
+        "id": 454,
+        "name": ".",
+        "cover": "http://image.bitautoimg.com/wapimg-1005-1257/coins/mall/20190918/w1005_h1257_9074c3da562f4c6691b877fed928821e.jpg",
+        "type": 0,
+        "link": "bitauto.yicheapp://mall/productdetail?id=1287"
+    }, {
+        "id": 342,
+        "name": ".",
+        "cover": "http://image.bitautoimg.com/wapimg-1005-1257/coins/mall/20190428/w1005_h1257_dd4ee17cfdc64b63a6cebd0c897735e3.jpg",
+        "type": 0,
+        "link": "bitauto.yicheapp://mall/productdetail?id=1469"
+    }],
+    "message": "成功",
+    "status": 1
+}

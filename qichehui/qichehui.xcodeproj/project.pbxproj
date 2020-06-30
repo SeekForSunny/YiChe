@@ -1,0 +1,1716 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0083B52A0DE860DB421446A1 /* Pods_qichehui.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4B51F37020B064CC4A47C1E /* Pods_qichehui.framework */; };
+		2A1BC7BC23E912EE009692AC /* YCNewCarNewEnergyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1BC7BB23E912EE009692AC /* YCNewCarNewEnergyViewController.swift */; };
+		2A1BC7C223E91643009692AC /* get_master_brands_xinnengyuan in Resources */ = {isa = PBXBuildFile; fileRef = 2A1BC7BF23E91643009692AC /* get_master_brands_xinnengyuan */; };
+		2A1BC7C323E91643009692AC /* newEnergyHeadNoPR_xinnengyuan in Resources */ = {isa = PBXBuildFile; fileRef = 2A1BC7C023E91643009692AC /* newEnergyHeadNoPR_xinnengyuan */; };
+		2A1BC7C423E91643009692AC /* getENPriceReduceList_xinnengyuan in Resources */ = {isa = PBXBuildFile; fileRef = 2A1BC7C123E91643009692AC /* getENPriceReduceList_xinnengyuan */; };
+		2A1BC7C823E91E5D009692AC /* YCNewCarNewEnergyHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1BC7C723E91E5D009692AC /* YCNewCarNewEnergyHeaderView.swift */; };
+		2A1BC7CA23E92011009692AC /* YCNewEnergyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1BC7C923E92011009692AC /* YCNewEnergyModel.swift */; };
+		2A1BC7CC23E9AB11009692AC /* YCNewCarEnergySelectConditionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1BC7CB23E9AB11009692AC /* YCNewCarEnergySelectConditionsView.swift */; };
+		2A1E93D823E17E2C00D9C894 /* CSTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1E93D723E17E2C00D9C894 /* CSTitleView.swift */; };
+		2A219F7E23B85C9800A42C5A /* YCHomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A219F7D23B85C9800A42C5A /* YCHomeHeaderView.swift */; };
+		2A22611A23C06C2700586045 /* get_area_channel in Resources */ = {isa = PBXBuildFile; fileRef = 2A22611823C06C2700586045 /* get_area_channel */; };
+		2A22611B23C06C2700586045 /* area_tab_show in Resources */ = {isa = PBXBuildFile; fileRef = 2A22611923C06C2700586045 /* area_tab_show */; };
+		2A22611E23C071D700586045 /* YCHomeAreaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A22611D23C071D700586045 /* YCHomeAreaModel.swift */; };
+		2A22612123C0884100586045 /* YCHomeAreaHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A22612023C0884100586045 /* YCHomeAreaHeaderView.swift */; };
+		2A26DD4B23B8E44800FCC77D /* get_materials in Resources */ = {isa = PBXBuildFile; fileRef = 2A26DD4923B8E44800FCC77D /* get_materials */; };
+		2A26DD4C23B8E44800FCC77D /* common_show in Resources */ = {isa = PBXBuildFile; fileRef = 2A26DD4A23B8E44800FCC77D /* common_show */; };
+		2A26DD4F23B8E65600FCC77D /* YCHomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A26DD4E23B8E65600FCC77D /* YCHomeModel.swift */; };
+		2A27939723B99B5B00103659 /* YCHomeRecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A27939623B99B5B00103659 /* YCHomeRecommendViewController.swift */; };
+		2A27939B23BA014400103659 /* tuijian in Resources */ = {isa = PBXBuildFile; fileRef = 2A27939823BA014400103659 /* tuijian */; };
+		2A27939D23BA014400103659 /* shipin in Resources */ = {isa = PBXBuildFile; fileRef = 2A27939A23BA014400103659 /* shipin */; };
+		2A2793A323BA02B700103659 /* YCHomeVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2793A223BA02B700103659 /* YCHomeVideoViewController.swift */; };
+		2A2793A523BA02C300103659 /* YCHomeAreaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2793A423BA02C300103659 /* YCHomeAreaViewController.swift */; };
+		2A2793A723BA02CD00103659 /* YCHomeAliveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2793A623BA02CD00103659 /* YCHomeAliveViewController.swift */; };
+		2A2793AA23BA03E000103659 /* YCHomeBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2793A923BA03E000103659 /* YCHomeBaseViewController.swift */; };
+		2A2793AD23BA0A8A00103659 /* YCHomeType21Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2793AC23BA0A8A00103659 /* YCHomeType21Cell.swift */; };
+		2A2793AF23BA0AAD00103659 /* YCHomeType4Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2793AE23BA0AAD00103659 /* YCHomeType4Cell.swift */; };
+		2A2793B123BA0ACC00103659 /* YCHomeType20Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2793B023BA0ACC00103659 /* YCHomeType20Cell.swift */; };
+		2A2793B323BA0B0C00103659 /* YCHomeType41Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2793B223BA0B0C00103659 /* YCHomeType41Cell.swift */; };
+		2A2793B623BA0EC700103659 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2793B523BA0EC700103659 /* HomeModel.swift */; };
+		2A2802F123C9BF7F007EA7EF /* get_liveList_zhibo in Resources */ = {isa = PBXBuildFile; fileRef = 2A2802EF23C9BF7F007EA7EF /* get_liveList_zhibo */; };
+		2A2802F223C9BF7F007EA7EF /* get_lives_zhibo in Resources */ = {isa = PBXBuildFile; fileRef = 2A2802F023C9BF7F007EA7EF /* get_lives_zhibo */; };
+		2A2802F523C9C106007EA7EF /* YCHomeAliveMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2802F423C9C106007EA7EF /* YCHomeAliveMode.swift */; };
+		2A2802F823C9C76D007EA7EF /* YCHomeAliveHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2802F723C9C76D007EA7EF /* YCHomeAliveHeaderView.swift */; };
+		2A2802FA23C9C912007EA7EF /* YCHomeAliveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2802F923C9C912007EA7EF /* YCHomeAliveCell.swift */; };
+		2A2902FC23CD35B600222AF3 /* YCHomeAliveHeaderRecUserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2902FB23CD35B600222AF3 /* YCHomeAliveHeaderRecUserCell.swift */; };
+		2A2A6B1023E41EA2006F29F8 /* get_car_home_icon_xinche in Resources */ = {isa = PBXBuildFile; fileRef = 2A2A6B0E23E41EA2006F29F8 /* get_car_home_icon_xinche */; };
+		2A2A6B1123E41EA2006F29F8 /* get_master_brands_xinche in Resources */ = {isa = PBXBuildFile; fileRef = 2A2A6B0F23E41EA2006F29F8 /* get_master_brands_xinche */; };
+		2A2A6B1423E4398B006F29F8 /* YCNewCarCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2A6B1323E4398B006F29F8 /* YCNewCarCarViewController.swift */; };
+		2A2A6E0D23CAA75E00F67A94 /* YCHomeAliveHeaderPagerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2A6E0C23CAA75E00F67A94 /* YCHomeAliveHeaderPagerCell.swift */; };
+		2A2AF76223D8314800A7DD49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2AF76123D8314800A7DD49 /* ViewController.swift */; };
+		2A2D221823E50DA50035A735 /* YCNewCarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2D221723E50DA50035A735 /* YCNewCarCell.swift */; };
+		2A2D221A23E5100D0035A735 /* YCNewCarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2D221923E5100D0035A735 /* YCNewCarModel.swift */; };
+		2A2D221C23E542520035A735 /* YCBasePagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2D221B23E542520035A735 /* YCBasePagerViewController.swift */; };
+		2A311B7F23EE9C6600A0104E /* YCNewCarNewEnergyRecommendHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A311B7E23EE9C6600A0104E /* YCNewCarNewEnergyRecommendHeaderView.swift */; };
+		2A34F4F923F38492002BF063 /* YCNewCarLuxuryBrandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A34F4F823F38492002BF063 /* YCNewCarLuxuryBrandViewController.swift */; };
+		2A34F4FC23F38D53002BF063 /* YCNewCarLuxuryBrandCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A34F4FB23F38D53002BF063 /* YCNewCarLuxuryBrandCell.swift */; };
+		2A3D31E823EBA9BA00C6F9BC /* YCNewEnergyPriceReduceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3D31E723EBA9BA00C6F9BC /* YCNewEnergyPriceReduceListView.swift */; };
+		2A3D31EA23EBABB600C6F9BC /* YCNewCarEnergyPerCarItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3D31E923EBABB600C6F9BC /* YCNewCarEnergyPerCarItemView.swift */; };
+		2A458EE223FE1ED800AC5454 /* YCNewCarLuxuryBrandModelTagsDynamicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A458EE123FE1ED800AC5454 /* YCNewCarLuxuryBrandModelTagsDynamicView.swift */; };
+		2A458EE423FE618400AC5454 /* YCNewCarLuxuryBrandSelectOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A458EE323FE618400AC5454 /* YCNewCarLuxuryBrandSelectOptionView.swift */; };
+		2A458EE623FE6F8100AC5454 /* GetValue_tehuipinpai in Resources */ = {isa = PBXBuildFile; fileRef = 2A458EE523FE6F8100AC5454 /* GetValue_tehuipinpai */; };
+		2A458EE923FE6FBE00AC5454 /* get_header_info_pingxingjinkou in Resources */ = {isa = PBXBuildFile; fileRef = 2A458EE723FE6FBE00AC5454 /* get_header_info_pingxingjinkou */; };
+		2A458EEA23FE6FBE00AC5454 /* get_master_brands_pingxingjinkou in Resources */ = {isa = PBXBuildFile; fileRef = 2A458EE823FE6FBE00AC5454 /* get_master_brands_pingxingjinkou */; };
+		2A458EED23FE89BF00AC5454 /* YCNewCarPreferentialBrandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A458EEC23FE89BF00AC5454 /* YCNewCarPreferentialBrandViewController.swift */; };
+		2A458EF023FE8C9A00AC5454 /* YCNewCarParallelImportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A458EEF23FE8C9A00AC5454 /* YCNewCarParallelImportViewController.swift */; };
+		2A458EF323FE8F9F00AC5454 /* YCNewCarPreferentialBrandHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A458EF223FE8F9F00AC5454 /* YCNewCarPreferentialBrandHeaderView.swift */; };
+		2A458EF623FE8FE100AC5454 /* YCNewCarParallelImportHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A458EF523FE8FE100AC5454 /* YCNewCarParallelImportHeaderView.swift */; };
+		2A458EF923FE911F00AC5454 /* YCNewCarPreferentialBrandModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A458EF823FE911F00AC5454 /* YCNewCarPreferentialBrandModel.swift */; };
+		2A458EFB23FE99CC00AC5454 /* getTeHuiPinPaiBsList_tehuipinpai in Resources */ = {isa = PBXBuildFile; fileRef = 2A458EFA23FE99CC00AC5454 /* getTeHuiPinPaiBsList_tehuipinpai */; };
+		2A498D8C23BC8AE10092AD37 /* ads in Resources */ = {isa = PBXBuildFile; fileRef = 2A498D8B23BC8AE00092AD37 /* ads */; };
+		2A498D8E23BC94D20092AD37 /* YCADType2Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A498D8D23BC94D20092AD37 /* YCADType2Cell.swift */; };
+		2A498D9223BCD9500092AD37 /* YCHomeVideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A498D9123BCD9500092AD37 /* YCHomeVideoCell.swift */; };
+		2A498D9523BCDB9F0092AD37 /* YCHomeVideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A498D9423BCDB9F0092AD37 /* YCHomeVideoModel.swift */; };
+		2A5FA67223ACB09C00E76505 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A5FA67123ACB09C00E76505 /* Assets.xcassets */; };
+		2A8B18FD23B22D1B00B2338B /* YCAccountManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8B18FC23B22D1B00B2338B /* YCAccountManager.swift */; };
+		2A90AC7923C15953000311D8 /* YCHomeType30Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A90AC7823C15953000311D8 /* YCHomeType30Cell.swift */; };
+		2A935435240529A100EF84CF /* YCNewCarParallelImportModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A935434240529A100EF84CF /* YCNewCarParallelImportModel.swift */; };
+		2AA40F3E23EE4B6300775032 /* YCNewCarEnergyWorthToBuyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA40F3D23EE4B6300775032 /* YCNewCarEnergyWorthToBuyView.swift */; };
+		2AA40F4023EE4FF700775032 /* YCNewCarNewEnergyBrandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA40F3F23EE4FF700775032 /* YCNewCarNewEnergyBrandView.swift */; };
+		2AD21C2E23CE87590052E098 /* YCHomeShortVideoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD21C2D23CE87590052E098 /* YCHomeShortVideoController.swift */; };
+		2AD21C3023CE88BE0052E098 /* WaterFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD21C2F23CE88BE0052E098 /* WaterFlowLayout.swift */; };
+		2AD21C3323CE895E0052E098 /* YCHomeShortVideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD21C3223CE895E0052E098 /* YCHomeShortVideoCell.swift */; };
+		2AD21C3623CE920E0052E098 /* video_applist in Resources */ = {isa = PBXBuildFile; fileRef = 2AD21C3423CE920E0052E098 /* video_applist */; };
+		2AD21C3723CE920E0052E098 /* video_tags_type in Resources */ = {isa = PBXBuildFile; fileRef = 2AD21C3523CE920E0052E098 /* video_tags_type */; };
+		2AD21C3A23CE929C0052E098 /* YCHomeShortVideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD21C3923CE929C0052E098 /* YCHomeShortVideoModel.swift */; };
+		2AD21C3C23CEA8DF0052E098 /* YCHomeShortVideoTagsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD21C3B23CEA8DF0052E098 /* YCHomeShortVideoTagsView.swift */; };
+		2AD21C3E23CEAB4A0052E098 /* YCHomeShortVideoTagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD21C3D23CEAB4A0052E098 /* YCHomeShortVideoTagView.swift */; };
+		2AD47F8C23EFE6A000191BB1 /* NavigationItemTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD47F8B23EFE6A000191BB1 /* NavigationItemTitleView.swift */; };
+		2ADC165823FB7ED800A57BB5 /* YCNewCarLuxuryBrandModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADC165723FB7ED800A57BB5 /* YCNewCarLuxuryBrandModel.swift */; };
+		2ADC165B23FB80BB00A57BB5 /* getGBPriceReduceList_haohuapinpai in Resources */ = {isa = PBXBuildFile; fileRef = 2ADC165923FB80BB00A57BB5 /* getGBPriceReduceList_haohuapinpai */; };
+		2ADC165C23FB80BB00A57BB5 /* grandBrandHeadNoPR_haohuapinpai in Resources */ = {isa = PBXBuildFile; fileRef = 2ADC165A23FB80BB00A57BB5 /* grandBrandHeadNoPR_haohuapinpai */; };
+		2ADC165E23FB82A200A57BB5 /* YCNewCarLuxuryBrandHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADC165D23FB82A200A57BB5 /* YCNewCarLuxuryBrandHeaderView.swift */; };
+		2ADC166123FBCAB600A57BB5 /* selectcarforappv2_haohuapinpai in Resources */ = {isa = PBXBuildFile; fileRef = 2ADC166023FBCAB600A57BB5 /* selectcarforappv2_haohuapinpai */; };
+		2ADDF3E323E6F71300C40FB3 /* YCNewCarHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADDF3E223E6F71300C40FB3 /* YCNewCarHeaderView.swift */; };
+		2AF1566F23ACB25C00114465 /* YCHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF155F523ACB25B00114465 /* YCHomeViewController.swift */; };
+		2AF1567023ACB25C00114465 /* Kingfisher+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF155F723ACB25B00114465 /* Kingfisher+Extension.swift */; };
+		2AF1567123ACB25C00114465 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF155F823ACB25B00114465 /* UIImage+Extension.swift */; };
+		2AF1567223ACB25C00114465 /* YCUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF155F923ACB25B00114465 /* YCUtils.swift */; };
+		2AF1567323ACB25C00114465 /* UIView+Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF155FA23ACB25B00114465 /* UIView+Frame.swift */; };
+		2AF1567423ACB25C00114465 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF155FB23ACB25B00114465 /* LocationManager.swift */; };
+		2AF1567523ACB25C00114465 /* Brand in Resources */ = {isa = PBXBuildFile; fileRef = 2AF155FE23ACB25B00114465 /* Brand */; };
+		2AF1567623ACB25C00114465 /* get_header_info in Resources */ = {isa = PBXBuildFile; fileRef = 2AF155FF23ACB25B00114465 /* get_header_info */; };
+		2AF1567723ACB25C00114465 /* get_ad_info in Resources */ = {isa = PBXBuildFile; fileRef = 2AF1560023ACB25B00114465 /* get_ad_info */; };
+		2AF1567823ACB25C00114465 /* products in Resources */ = {isa = PBXBuildFile; fileRef = 2AF1560323ACB25B00114465 /* products */; };
+		2AF1567923ACB25C00114465 /* get_order_stat in Resources */ = {isa = PBXBuildFile; fileRef = 2AF1560423ACB25B00114465 /* get_order_stat */; };
+		2AF1567A23ACB25C00114465 /* GetUseCarByTagsType1 in Resources */ = {isa = PBXBuildFile; fileRef = 2AF1560523ACB25B00114465 /* GetUseCarByTagsType1 */; };
+		2AF1567B23ACB25C00114465 /* category in Resources */ = {isa = PBXBuildFile; fileRef = 2AF1560723ACB25B00114465 /* category */; };
+		2AF1567C23ACB25C00114465 /* more_products in Resources */ = {isa = PBXBuildFile; fileRef = 2AF1560823ACB25B00114465 /* more_products */; };
+		2AF1567D23ACB25C00114465 /* subject in Resources */ = {isa = PBXBuildFile; fileRef = 2AF1560923ACB25B00114465 /* subject */; };
+		2AF1567E23ACB25C00114465 /* common_material in Resources */ = {isa = PBXBuildFile; fileRef = 2AF1560A23ACB25B00114465 /* common_material */; };
+		2AF1567F23ACB25C00114465 /* indexviewdata in Resources */ = {isa = PBXBuildFile; fileRef = 2AF1560B23ACB25B00114465 /* indexviewdata */; };
+		2AF1568023ACB25C00114465 /* GetUseCarByTagsType2 in Resources */ = {isa = PBXBuildFile; fileRef = 2AF1560C23ACB25B00114465 /* GetUseCarByTagsType2 */; };
+		2AF1568123ACB25C00114465 /* get_member_status_info in Resources */ = {isa = PBXBuildFile; fileRef = 2AF1560D23ACB25B00114465 /* get_member_status_info */; };
+		2AF1568223ACB25C00114465 /* YCUsedCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1560F23ACB25B00114465 /* YCUsedCarViewController.swift */; };
+		2AF1568323ACB25C00114465 /* YCUsedCarModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1561123ACB25B00114465 /* YCUsedCarModels.swift */; };
+		2AF1568423ACB25C00114465 /* YCCarBrandCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1561323ACB25B00114465 /* YCCarBrandCell.swift */; };
+		2AF1568523ACB25C00114465 /* YCCustomPagerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1561423ACB25B00114465 /* YCCustomPagerCell.swift */; };
+		2AF1568623ACB25C00114465 /* YCUsedCarFavorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1561523ACB25B00114465 /* YCUsedCarFavorView.swift */; };
+		2AF1568723ACB25C00114465 /* YCUsedCarHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1561623ACB25B00114465 /* YCUsedCarHeaderView.swift */; };
+		2AF1568823ACB25C00114465 /* YCCarBrandHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1561723ACB25B00114465 /* YCCarBrandHeaderView.swift */; };
+		2AF1568923ACB25C00114465 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AF1561923ACB25B00114465 /* LaunchScreen.storyboard */; };
+		2AF1568A23ACB25C00114465 /* LaunchImage-1100-Portrait-2436h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AF1561B23ACB25B00114465 /* LaunchImage-1100-Portrait-2436h@3x.png */; };
+		2AF1568B23ACB25C00114465 /* LaunchImage-800-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AF1561C23ACB25B00114465 /* LaunchImage-800-667h@2x.png */; };
+		2AF1568C23ACB25C00114465 /* LaunchImage-1200-Portrait-2688h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AF1561D23ACB25B00114465 /* LaunchImage-1200-Portrait-2688h@3x.png */; };
+		2AF1568D23ACB25C00114465 /* LaunchImage-800-Portrait-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AF1561E23ACB25B00114465 /* LaunchImage-800-Portrait-736h@3x.png */; };
+		2AF1568E23ACB25C00114465 /* LaunchImage-700@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AF1561F23ACB25B00114465 /* LaunchImage-700@2x.png */; };
+		2AF1568F23ACB25C00114465 /* LaunchImage-700-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AF1562023ACB25B00114465 /* LaunchImage-700-568h@2x.png */; };
+		2AF1569023ACB25C00114465 /* LaunchImage-1200-Portrait-1792h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AF1562123ACB25B00114465 /* LaunchImage-1200-Portrait-1792h@2x.png */; };
+		2AF1569123ACB25C00114465 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1562223ACB25B00114465 /* AppDelegate.swift */; };
+		2AF1569223ACB25C00114465 /* YCFortumPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1562523ACB25B00114465 /* YCFortumPhotoViewController.swift */; };
+		2AF1569323ACB25C00114465 /* YCFortumChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1562723ACB25B00114465 /* YCFortumChangeViewController.swift */; };
+		2AF1569423ACB25C00114465 /* YCFortumBuyCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1562923ACB25B00114465 /* YCFortumBuyCarViewController.swift */; };
+		2AF1569523ACB25C00114465 /* YCFortumLifeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1562B23ACB25B00114465 /* YCFortumLifeViewController.swift */; };
+		2AF1569623ACB25C00114465 /* YCFortumTravelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1562D23ACB25B00114465 /* YCFortumTravelViewController.swift */; };
+		2AF1569723ACB25C00114465 /* YCFortumCarUseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1562F23ACB25B00114465 /* YCFortumCarUseViewController.swift */; };
+		2AF1569823ACB25C00114465 /* YCFortumBayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1563123ACB25B00114465 /* YCFortumBayViewController.swift */; };
+		2AF1569923ACB25C00114465 /* YCFortumWomanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1563323ACB25B00114465 /* YCFortumWomanViewController.swift */; };
+		2AF1569A23ACB25C00114465 /* YCFortumYardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1563523ACB25B00114465 /* YCFortumYardViewController.swift */; };
+		2AF1569B23ACB25C00114465 /* YCFortumModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1563823ACB25B00114465 /* YCFortumModel.swift */; };
+		2AF1569C23ACB25C00114465 /* YCFortumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1563A23ACB25B00114465 /* YCFortumCell.swift */; };
+		2AF1569D23ACB25C00114465 /* YCFortumPagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1563B23ACB25B00114465 /* YCFortumPagerViewController.swift */; };
+		2AF1569E23ACB25C00114465 /* YCFortumDriverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1563D23ACB25B00114465 /* YCFortumDriverViewController.swift */; };
+		2AF1569F23ACB25C00114465 /* YCChoicenessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1563F23ACB25B00114465 /* YCChoicenessViewController.swift */; };
+		2AF156A023ACB25C00114465 /* YCFortumHelperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1564123ACB25B00114465 /* YCFortumHelperViewController.swift */; };
+		2AF156A123ACB25C00114465 /* YCFortumPartyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1564323ACB25B00114465 /* YCFortumPartyViewController.swift */; };
+		2AF156A223ACB25C00114465 /* YCForumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1564623ACB25B00114465 /* YCForumViewController.swift */; };
+		2AF156A323ACB25C00114465 /* YCForumHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1564823ACB25B00114465 /* YCForumHeaderView.swift */; };
+		2AF156A423ACB25C00114465 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1564A23ACB25B00114465 /* Constant.swift */; };
+		2AF156A523ACB25C00114465 /* UIDevice+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1564B23ACB25B00114465 /* UIDevice+Extension.swift */; };
+		2AF156A623ACB25C00114465 /* YCCustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1564C23ACB25B00114465 /* YCCustomButton.swift */; };
+		2AF156A723ACB25C00114465 /* UIImage+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1564D23ACB25B00114465 /* UIImage+Color.swift */; };
+		2AF156A823ACB25C00114465 /* UIColor+Extenssion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1564E23ACB25B00114465 /* UIColor+Extenssion.swift */; };
+		2AF156AC23ACB25C00114465 /* YCProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1565523ACB25C00114465 /* YCProfileViewController.swift */; };
+		2AF156AD23ACB25C00114465 /* YCProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1565723ACB25C00114465 /* YCProfileModel.swift */; };
+		2AF156AE23ACB25C00114465 /* YCProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1565923ACB25C00114465 /* YCProfileHeaderView.swift */; };
+		2AF156AF23ACB25C00114465 /* YCCarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1565A23ACB25C00114465 /* YCCarView.swift */; };
+		2AF156B023ACB25C00114465 /* YCCarCoinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1565B23ACB25C00114465 /* YCCarCoinView.swift */; };
+		2AF156B123ACB25C00114465 /* YCProfileTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1565C23ACB25C00114465 /* YCProfileTopView.swift */; };
+		2AF156B223ACB25C00114465 /* YCCarServiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1565D23ACB25C00114465 /* YCCarServiceView.swift */; };
+		2AF156B323ACB25C00114465 /* YCProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1565E23ACB25C00114465 /* YCProfileCell.swift */; };
+		2AF156B423ACB25C00114465 /* YCCarCoinButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1565F23ACB25C00114465 /* YCCarCoinButton.swift */; };
+		2AF156B523ACB25C00114465 /* YCShowMoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1566123ACB25C00114465 /* YCShowMoreViewController.swift */; };
+		2AF156B623ACB25C00114465 /* YCShowMoreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1566323ACB25C00114465 /* YCShowMoreModel.swift */; };
+		2AF156B723ACB25C00114465 /* YCShowMoreTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1566523ACB25C00114465 /* YCShowMoreTitleView.swift */; };
+		2AF156B823ACB25C00114465 /* YCSHowMoreHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1566623ACB25C00114465 /* YCSHowMoreHeaderView.swift */; };
+		2AF156B923ACB25C00114465 /* YCShowMoreCellNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1566723ACB25C00114465 /* YCShowMoreCellNode.swift */; };
+		2AF156BA23ACB25C00114465 /* YCShowMorePerProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1566823ACB25C00114465 /* YCShowMorePerProductView.swift */; };
+		2AF156BB23ACB25C00114465 /* YCNewCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1566A23ACB25C00114465 /* YCNewCarViewController.swift */; };
+		2AF156BC23ACB25C00114465 /* YCTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1566C23ACB25C00114465 /* YCTabBarController.swift */; };
+		2AF156BD23ACB25C00114465 /* YCBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1566D23ACB25C00114465 /* YCBaseViewController.swift */; };
+		2AF156BE23ACB25C00114465 /* YCNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1566E23ACB25C00114465 /* YCNavigationController.swift */; };
+		2AF156D623ACC3B000114465 /* getlist_shenghuozatan in Resources */ = {isa = PBXBuildFile; fileRef = 2AF156C723ACC3AF00114465 /* getlist_shenghuozatan */; };
+		2AF156D723ACC3B000114465 /* getlist_sheyouzu in Resources */ = {isa = PBXBuildFile; fileRef = 2AF156C823ACC3AF00114465 /* getlist_sheyouzu */; };
+		2AF156D823ACC3B000114465 /* getlist_quanminshiche in Resources */ = {isa = PBXBuildFile; fileRef = 2AF156C923ACC3AF00114465 /* getlist_quanminshiche */; };
+		2AF156D923ACC3B000114465 /* getlist_zhugong999 in Resources */ = {isa = PBXBuildFile; fileRef = 2AF156CA23ACC3AF00114465 /* getlist_zhugong999 */; };
+		2AF156DA23ACC3B000114465 /* getlist_tichehuizong in Resources */ = {isa = PBXBuildFile; fileRef = 2AF156CB23ACC3AF00114465 /* getlist_tichehuizong */; };
+		2AF156DB23ACC3B000114465 /* getlist_lvxingyouji in Resources */ = {isa = PBXBuildFile; fileRef = 2AF156CC23ACC3AF00114465 /* getlist_lvxingyouji */; };
+		2AF156DC23ACC3B000114465 /* getlist_nvshenjiadao in Resources */ = {isa = PBXBuildFile; fileRef = 2AF156CD23ACC3AF00114465 /* getlist_nvshenjiadao */; };
+		2AF156DD23ACC3B000114465 /* recommendList in Resources */ = {isa = PBXBuildFile; fileRef = 2AF156CE23ACC3AF00114465 /* recommendList */; };
+		2AF156DE23ACC3B000114465 /* getlist_cheyoujuhui in Resources */ = {isa = PBXBuildFile; fileRef = 2AF156CF23ACC3AF00114465 /* getlist_cheyoujuhui */; };
+		2AF156DF23ACC3B000114465 /* getlist_mengwaxiuchang in Resources */ = {isa = PBXBuildFile; fileRef = 2AF156D023ACC3AF00114465 /* getlist_mengwaxiuchang */; };
+		2AF156E023ACC3B000114465 /* getlist_sheyingxueyuan in Resources */ = {isa = PBXBuildFile; fileRef = 2AF156D123ACC3AF00114465 /* getlist_sheyingxueyuan */; };
+		2AF156E123ACC3B000114465 /* getsubclasses in Resources */ = {isa = PBXBuildFile; fileRef = 2AF156D223ACC3AF00114465 /* getsubclasses */; };
+		2AF156E223ACC3B000114465 /* getlist_gaizhuangyizu in Resources */ = {isa = PBXBuildFile; fileRef = 2AF156D323ACC3AF00114465 /* getlist_gaizhuangyizu */; };
+		2AF156E323ACC3B000114465 /* getlist_yongchebaoyang in Resources */ = {isa = PBXBuildFile; fileRef = 2AF156D423ACC3AF00114465 /* getlist_yongchebaoyang */; };
+		2AF156E423ACC3B000114465 /* getlist_zuixinjingxuan in Resources */ = {isa = PBXBuildFile; fileRef = 2AF156D523ACC3AF00114465 /* getlist_zuixinjingxuan */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		107B863DAE33AF6E5CF3A100 /* Pods-qichehui.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qichehui.release.xcconfig"; path = "Pods/Target Support Files/Pods-qichehui/Pods-qichehui.release.xcconfig"; sourceTree = "<group>"; };
+		2A1BC7BB23E912EE009692AC /* YCNewCarNewEnergyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCNewCarNewEnergyViewController.swift; sourceTree = "<group>"; };
+		2A1BC7BF23E91643009692AC /* get_master_brands_xinnengyuan */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = get_master_brands_xinnengyuan; sourceTree = "<group>"; };
+		2A1BC7C023E91643009692AC /* newEnergyHeadNoPR_xinnengyuan */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = newEnergyHeadNoPR_xinnengyuan; sourceTree = "<group>"; };
+		2A1BC7C123E91643009692AC /* getENPriceReduceList_xinnengyuan */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = getENPriceReduceList_xinnengyuan; path = ../../../../../../../../Desktop/YiChe/NewCar/getENPriceReduceList_xinnengyuan; sourceTree = "<group>"; };
+		2A1BC7C723E91E5D009692AC /* YCNewCarNewEnergyHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCNewCarNewEnergyHeaderView.swift; sourceTree = "<group>"; };
+		2A1BC7C923E92011009692AC /* YCNewEnergyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCNewEnergyModel.swift; sourceTree = "<group>"; };
+		2A1BC7CB23E9AB11009692AC /* YCNewCarEnergySelectConditionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCNewCarEnergySelectConditionsView.swift; sourceTree = "<group>"; };
+		2A1E93D723E17E2C00D9C894 /* CSTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSTitleView.swift; sourceTree = "<group>"; };
+		2A219F7D23B85C9800A42C5A /* YCHomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCHomeHeaderView.swift; sourceTree = "<group>"; };
+		2A22611823C06C2700586045 /* get_area_channel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = get_area_channel; path = ../../../../../../../../Desktop/YiChe/Home/get_area_channel; sourceTree = "<group>"; };
+		2A22611923C06C2700586045 /* area_tab_show */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = area_tab_show; sourceTree = "<group>"; };
+		2A22611D23C071D700586045 /* YCHomeAreaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCHomeAreaModel.swift; sourceTree = "<group>"; };
+		2A22612023C0884100586045 /* YCHomeAreaHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCHomeAreaHeaderView.swift; sourceTree = "<group>"; };
+		2A26DD4923B8E44800FCC77D /* get_materials */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = get_materials; sourceTree = "<group>"; };
+		2A26DD4A23B8E44800FCC77D /* common_show */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = common_show; sourceTree = "<group>"; };
+		2A26DD4E23B8E65600FCC77D /* YCHomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCHomeModel.swift; sourceTree = "<group>"; };
+		2A27939623B99B5B00103659 /* YCHomeRecommendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCHomeRecommendViewController.swift; sourceTree = "<group>"; };
+		2A27939823BA014400103659 /* tuijian */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tuijian; sourceTree = "<group>"; };
+		2A27939A23BA014400103659 /* shipin */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = shipin; sourceTree = "<group>"; };
+		2A2793A223BA02B700103659 /* YCHomeVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCHomeVideoViewController.swift; sourceTree = "<group>"; };
+		2A2793A423BA02C300103659 /* YCHomeAreaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCHomeAreaViewController.swift; sourceTree = "<group>"; };
+		2A2793A623BA02CD00103659 /* YCHomeAliveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCHomeAliveViewController.swift; sourceTree = "<group>"; };
+		2A2793A923BA03E000103659 /* YCHomeBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCHomeBaseViewController.swift; sourceTree = "<group>"; };
+		2A2793AC23BA0A8A00103659 /* YCHomeType21Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCHomeType21Cell.swift; sourceTree = "<group>"; };
+		2A2793AE23BA0AAD00103659 /* YCHomeType4Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCHomeType4Cell.swift; sourceTree = "<group>"; };
+		2A2793B023BA0ACC00103659 /* YCHomeType20Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCHomeType20Cell.swift; sourceTree = "<group>"; };
+		2A2793B223BA0B0C00103659 /* YCHomeType41Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCHomeType41Cell.swift; sourceTree = "<group>"; };
+		2A2793B523BA0EC700103659 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		2A2802EF23C9BF7F007EA7EF /* get_liveList_zhibo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = get_liveList_zhibo; sourceTree = "<group>"; };
+		2A2802F023C9BF7F007EA7EF /* get_lives_zhibo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = get_lives_zhibo; sourceTree = "<group>"; };
+		2A2802F423C9C106007EA7EF /* YCHomeAliveMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCHomeAliveMode.swift; sourceTree = "<group>"; };
+		2A2802F723C9C76D007EA7EF /* YCHomeAliveHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCHomeAliveHeaderView.swift; sourceTree = "<group>"; };
+		2A2802F923C9C912007EA7EF /* YCHomeAliveCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCHomeAliveCell.swift; sourceTree = "<group>"; };
+		2A2902FB23CD35B600222AF3 /* YCHomeAliveHeaderRecUserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCHomeAliveHeaderRecUserCell.swift; sourceTree = "<group>"; };
+		2A2A6B0E23E41EA2006F29F8 /* get_car_home_icon_xinche */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = get_car_home_icon_xinche; sourceTree = "<group>"; };
+		2A2A6B0F23E41EA2006F29F8 /* get_master_brands_xinche */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = get_master_brands_xinche; sourceTree = "<group>"; };
+		2A2A6B1323E4398B006F29F8 /* YCNewCarCarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCNewCarCarViewController.swift; sourceTree = "<group>"; };
+		2A2A6E0C23CAA75E00F67A94 /* YCHomeAliveHeaderPagerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCHomeAliveHeaderPagerCell.swift; sourceTree = "<group>"; };
+		2A2AF76123D8314800A7DD49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2A2D221723E50DA50035A735 /* YCNewCarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCNewCarCell.swift; sourceTree = "<group>"; };
+		2A2D221923E5100D0035A735 /* YCNewCarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCNewCarModel.swift; sourceTree = "<group>"; };
+		2A2D221B23E542520035A735 /* YCBasePagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCBasePagerViewController.swift; sourceTree = "<group>"; };
+		2A311B7E23EE9C6600A0104E /* YCNewCarNewEnergyRecommendHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCNewCarNewEnergyRecommendHeaderView.swift; sourceTree = "<group>"; };
+		2A34F4F823F38492002BF063 /* YCNewCarLuxuryBrandViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCNewCarLuxuryBrandViewController.swift; sourceTree = "<group>"; };
+		2A34F4FB23F38D53002BF063 /* YCNewCarLuxuryBrandCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCNewCarLuxuryBrandCell.swift; sourceTree = "<group>"; };
+		2A3D31E723EBA9BA00C6F9BC /* YCNewEnergyPriceReduceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCNewEnergyPriceReduceListView.swift; sourceTree = "<group>"; };
+		2A3D31E923EBABB600C6F9BC /* YCNewCarEnergyPerCarItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCNewCarEnergyPerCarItemView.swift; sourceTree = "<group>"; };
+		2A458EE123FE1ED800AC5454 /* YCNewCarLuxuryBrandModelTagsDynamicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCNewCarLuxuryBrandModelTagsDynamicView.swift; sourceTree = "<group>"; };
+		2A458EE323FE618400AC5454 /* YCNewCarLuxuryBrandSelectOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCNewCarLuxuryBrandSelectOptionView.swift; sourceTree = "<group>"; };
+		2A458EE523FE6F8100AC5454 /* GetValue_tehuipinpai */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GetValue_tehuipinpai; sourceTree = "<group>"; };
+		2A458EE723FE6FBE00AC5454 /* get_header_info_pingxingjinkou */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = get_header_info_pingxingjinkou; sourceTree = "<group>"; };
+		2A458EE823FE6FBE00AC5454 /* get_master_brands_pingxingjinkou */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = get_master_brands_pingxingjinkou; sourceTree = "<group>"; };
+		2A458EEC23FE89BF00AC5454 /* YCNewCarPreferentialBrandViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCNewCarPreferentialBrandViewController.swift; sourceTree = "<group>"; };
+		2A458EEF23FE8C9A00AC5454 /* YCNewCarParallelImportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCNewCarParallelImportViewController.swift; sourceTree = "<group>"; };
+		2A458EF223FE8F9F00AC5454 /* YCNewCarPreferentialBrandHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCNewCarPreferentialBrandHeaderView.swift; sourceTree = "<group>"; };
+		2A458EF523FE8FE100AC5454 /* YCNewCarParallelImportHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCNewCarParallelImportHeaderView.swift; sourceTree = "<group>"; };
+		2A458EF823FE911F00AC5454 /* YCNewCarPreferentialBrandModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCNewCarPreferentialBrandModel.swift; sourceTree = "<group>"; };
+		2A458EFA23FE99CC00AC5454 /* getTeHuiPinPaiBsList_tehuipinpai */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = getTeHuiPinPaiBsList_tehuipinpai; sourceTree = "<group>"; };
+		2A498D8B23BC8AE00092AD37 /* ads */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ads; sourceTree = "<group>"; };
+		2A498D8D23BC94D20092AD37 /* YCADType2Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCADType2Cell.swift; sourceTree = "<group>"; };
+		2A498D9123BCD9500092AD37 /* YCHomeVideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCHomeVideoCell.swift; sourceTree = "<group>"; };
+		2A498D9423BCDB9F0092AD37 /* YCHomeVideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCHomeVideoModel.swift; sourceTree = "<group>"; };
+		2A5FA66523ACB09B00E76505 /* qichehui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = qichehui.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A5FA67123ACB09C00E76505 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A5FA67623ACB09C00E76505 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A8B18FC23B22D1B00B2338B /* YCAccountManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCAccountManager.swift; sourceTree = "<group>"; };
+		2A90AC7823C15953000311D8 /* YCHomeType30Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCHomeType30Cell.swift; sourceTree = "<group>"; };
+		2A935434240529A100EF84CF /* YCNewCarParallelImportModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCNewCarParallelImportModel.swift; sourceTree = "<group>"; };
+		2AA40F3D23EE4B6300775032 /* YCNewCarEnergyWorthToBuyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCNewCarEnergyWorthToBuyView.swift; sourceTree = "<group>"; };
+		2AA40F3F23EE4FF700775032 /* YCNewCarNewEnergyBrandView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCNewCarNewEnergyBrandView.swift; sourceTree = "<group>"; };
+		2AD21C2D23CE87590052E098 /* YCHomeShortVideoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCHomeShortVideoController.swift; sourceTree = "<group>"; };
+		2AD21C2F23CE88BE0052E098 /* WaterFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterFlowLayout.swift; sourceTree = "<group>"; };
+		2AD21C3223CE895E0052E098 /* YCHomeShortVideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCHomeShortVideoCell.swift; sourceTree = "<group>"; };
+		2AD21C3423CE920E0052E098 /* video_applist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = video_applist; sourceTree = "<group>"; };
+		2AD21C3523CE920E0052E098 /* video_tags_type */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = video_tags_type; sourceTree = "<group>"; };
+		2AD21C3923CE929C0052E098 /* YCHomeShortVideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCHomeShortVideoModel.swift; sourceTree = "<group>"; };
+		2AD21C3B23CEA8DF0052E098 /* YCHomeShortVideoTagsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCHomeShortVideoTagsView.swift; sourceTree = "<group>"; };
+		2AD21C3D23CEAB4A0052E098 /* YCHomeShortVideoTagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCHomeShortVideoTagView.swift; sourceTree = "<group>"; };
+		2AD47F8B23EFE6A000191BB1 /* NavigationItemTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationItemTitleView.swift; sourceTree = "<group>"; };
+		2ADC165723FB7ED800A57BB5 /* YCNewCarLuxuryBrandModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCNewCarLuxuryBrandModel.swift; sourceTree = "<group>"; };
+		2ADC165923FB80BB00A57BB5 /* getGBPriceReduceList_haohuapinpai */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = getGBPriceReduceList_haohuapinpai; sourceTree = "<group>"; };
+		2ADC165A23FB80BB00A57BB5 /* grandBrandHeadNoPR_haohuapinpai */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = grandBrandHeadNoPR_haohuapinpai; sourceTree = "<group>"; };
+		2ADC165D23FB82A200A57BB5 /* YCNewCarLuxuryBrandHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCNewCarLuxuryBrandHeaderView.swift; sourceTree = "<group>"; };
+		2ADC166023FBCAB600A57BB5 /* selectcarforappv2_haohuapinpai */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = selectcarforappv2_haohuapinpai; sourceTree = "<group>"; };
+		2ADDF3E223E6F71300C40FB3 /* YCNewCarHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCNewCarHeaderView.swift; sourceTree = "<group>"; };
+		2AF155F523ACB25B00114465 /* YCHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCHomeViewController.swift; sourceTree = "<group>"; };
+		2AF155F723ACB25B00114465 /* Kingfisher+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Kingfisher+Extension.swift"; sourceTree = "<group>"; };
+		2AF155F823ACB25B00114465 /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		2AF155F923ACB25B00114465 /* YCUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCUtils.swift; sourceTree = "<group>"; };
+		2AF155FA23ACB25B00114465 /* UIView+Frame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Frame.swift"; sourceTree = "<group>"; };
+		2AF155FB23ACB25B00114465 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		2AF155FE23ACB25B00114465 /* Brand */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Brand; sourceTree = "<group>"; };
+		2AF155FF23ACB25B00114465 /* get_header_info */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = get_header_info; sourceTree = "<group>"; };
+		2AF1560023ACB25B00114465 /* get_ad_info */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = get_ad_info; sourceTree = "<group>"; };
+		2AF1560323ACB25B00114465 /* products */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = products; sourceTree = "<group>"; };
+		2AF1560423ACB25B00114465 /* get_order_stat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = get_order_stat; sourceTree = "<group>"; };
+		2AF1560523ACB25B00114465 /* GetUseCarByTagsType1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GetUseCarByTagsType1; sourceTree = "<group>"; };
+		2AF1560723ACB25B00114465 /* category */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = category; sourceTree = "<group>"; };
+		2AF1560823ACB25B00114465 /* more_products */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = more_products; sourceTree = "<group>"; };
+		2AF1560923ACB25B00114465 /* subject */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = subject; sourceTree = "<group>"; };
+		2AF1560A23ACB25B00114465 /* common_material */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = common_material; sourceTree = "<group>"; };
+		2AF1560B23ACB25B00114465 /* indexviewdata */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = indexviewdata; sourceTree = "<group>"; };
+		2AF1560C23ACB25B00114465 /* GetUseCarByTagsType2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GetUseCarByTagsType2; sourceTree = "<group>"; };
+		2AF1560D23ACB25B00114465 /* get_member_status_info */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = get_member_status_info; sourceTree = "<group>"; };
+		2AF1560F23ACB25B00114465 /* YCUsedCarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCUsedCarViewController.swift; sourceTree = "<group>"; };
+		2AF1561123ACB25B00114465 /* YCUsedCarModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCUsedCarModels.swift; sourceTree = "<group>"; };
+		2AF1561323ACB25B00114465 /* YCCarBrandCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCCarBrandCell.swift; sourceTree = "<group>"; };
+		2AF1561423ACB25B00114465 /* YCCustomPagerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCCustomPagerCell.swift; sourceTree = "<group>"; };
+		2AF1561523ACB25B00114465 /* YCUsedCarFavorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCUsedCarFavorView.swift; sourceTree = "<group>"; };
+		2AF1561623ACB25B00114465 /* YCUsedCarHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCUsedCarHeaderView.swift; sourceTree = "<group>"; };
+		2AF1561723ACB25B00114465 /* YCCarBrandHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCCarBrandHeaderView.swift; sourceTree = "<group>"; };
+		2AF1561923ACB25B00114465 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2AF1561B23ACB25B00114465 /* LaunchImage-1100-Portrait-2436h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-1100-Portrait-2436h@3x.png"; sourceTree = "<group>"; };
+		2AF1561C23ACB25B00114465 /* LaunchImage-800-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-800-667h@2x.png"; sourceTree = "<group>"; };
+		2AF1561D23ACB25B00114465 /* LaunchImage-1200-Portrait-2688h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-1200-Portrait-2688h@3x.png"; sourceTree = "<group>"; };
+		2AF1561E23ACB25B00114465 /* LaunchImage-800-Portrait-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-800-Portrait-736h@3x.png"; sourceTree = "<group>"; };
+		2AF1561F23ACB25B00114465 /* LaunchImage-700@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-700@2x.png"; sourceTree = "<group>"; };
+		2AF1562023ACB25B00114465 /* LaunchImage-700-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-700-568h@2x.png"; sourceTree = "<group>"; };
+		2AF1562123ACB25B00114465 /* LaunchImage-1200-Portrait-1792h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-1200-Portrait-1792h@2x.png"; sourceTree = "<group>"; };
+		2AF1562223ACB25B00114465 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2AF1562523ACB25B00114465 /* YCFortumPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCFortumPhotoViewController.swift; sourceTree = "<group>"; };
+		2AF1562723ACB25B00114465 /* YCFortumChangeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCFortumChangeViewController.swift; sourceTree = "<group>"; };
+		2AF1562923ACB25B00114465 /* YCFortumBuyCarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCFortumBuyCarViewController.swift; sourceTree = "<group>"; };
+		2AF1562B23ACB25B00114465 /* YCFortumLifeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCFortumLifeViewController.swift; sourceTree = "<group>"; };
+		2AF1562D23ACB25B00114465 /* YCFortumTravelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCFortumTravelViewController.swift; sourceTree = "<group>"; };
+		2AF1562F23ACB25B00114465 /* YCFortumCarUseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCFortumCarUseViewController.swift; sourceTree = "<group>"; };
+		2AF1563123ACB25B00114465 /* YCFortumBayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCFortumBayViewController.swift; sourceTree = "<group>"; };
+		2AF1563323ACB25B00114465 /* YCFortumWomanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCFortumWomanViewController.swift; sourceTree = "<group>"; };
+		2AF1563523ACB25B00114465 /* YCFortumYardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCFortumYardViewController.swift; sourceTree = "<group>"; };
+		2AF1563823ACB25B00114465 /* YCFortumModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCFortumModel.swift; sourceTree = "<group>"; };
+		2AF1563A23ACB25B00114465 /* YCFortumCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCFortumCell.swift; sourceTree = "<group>"; };
+		2AF1563B23ACB25B00114465 /* YCFortumPagerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCFortumPagerViewController.swift; sourceTree = "<group>"; };
+		2AF1563D23ACB25B00114465 /* YCFortumDriverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCFortumDriverViewController.swift; sourceTree = "<group>"; };
+		2AF1563F23ACB25B00114465 /* YCChoicenessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCChoicenessViewController.swift; sourceTree = "<group>"; };
+		2AF1564123ACB25B00114465 /* YCFortumHelperViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCFortumHelperViewController.swift; sourceTree = "<group>"; };
+		2AF1564323ACB25B00114465 /* YCFortumPartyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCFortumPartyViewController.swift; sourceTree = "<group>"; };
+		2AF1564623ACB25B00114465 /* YCForumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCForumViewController.swift; sourceTree = "<group>"; };
+		2AF1564823ACB25B00114465 /* YCForumHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCForumHeaderView.swift; sourceTree = "<group>"; };
+		2AF1564A23ACB25B00114465 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		2AF1564B23ACB25B00114465 /* UIDevice+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extension.swift"; sourceTree = "<group>"; };
+		2AF1564C23ACB25B00114465 /* YCCustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCCustomButton.swift; sourceTree = "<group>"; };
+		2AF1564D23ACB25B00114465 /* UIImage+Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Color.swift"; sourceTree = "<group>"; };
+		2AF1564E23ACB25B00114465 /* UIColor+Extenssion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extenssion.swift"; sourceTree = "<group>"; };
+		2AF1565523ACB25C00114465 /* YCProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCProfileViewController.swift; sourceTree = "<group>"; };
+		2AF1565723ACB25C00114465 /* YCProfileModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCProfileModel.swift; sourceTree = "<group>"; };
+		2AF1565923ACB25C00114465 /* YCProfileHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCProfileHeaderView.swift; sourceTree = "<group>"; };
+		2AF1565A23ACB25C00114465 /* YCCarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCCarView.swift; sourceTree = "<group>"; };
+		2AF1565B23ACB25C00114465 /* YCCarCoinView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCCarCoinView.swift; sourceTree = "<group>"; };
+		2AF1565C23ACB25C00114465 /* YCProfileTopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCProfileTopView.swift; sourceTree = "<group>"; };
+		2AF1565D23ACB25C00114465 /* YCCarServiceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCCarServiceView.swift; sourceTree = "<group>"; };
+		2AF1565E23ACB25C00114465 /* YCProfileCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCProfileCell.swift; sourceTree = "<group>"; };
+		2AF1565F23ACB25C00114465 /* YCCarCoinButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCCarCoinButton.swift; sourceTree = "<group>"; };
+		2AF1566123ACB25C00114465 /* YCShowMoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCShowMoreViewController.swift; sourceTree = "<group>"; };
+		2AF1566323ACB25C00114465 /* YCShowMoreModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCShowMoreModel.swift; sourceTree = "<group>"; };
+		2AF1566523ACB25C00114465 /* YCShowMoreTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCShowMoreTitleView.swift; sourceTree = "<group>"; };
+		2AF1566623ACB25C00114465 /* YCSHowMoreHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCSHowMoreHeaderView.swift; sourceTree = "<group>"; };
+		2AF1566723ACB25C00114465 /* YCShowMoreCellNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCShowMoreCellNode.swift; sourceTree = "<group>"; };
+		2AF1566823ACB25C00114465 /* YCShowMorePerProductView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCShowMorePerProductView.swift; sourceTree = "<group>"; };
+		2AF1566A23ACB25C00114465 /* YCNewCarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCNewCarViewController.swift; sourceTree = "<group>"; };
+		2AF1566C23ACB25C00114465 /* YCTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCTabBarController.swift; sourceTree = "<group>"; };
+		2AF1566D23ACB25C00114465 /* YCBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCBaseViewController.swift; sourceTree = "<group>"; };
+		2AF1566E23ACB25C00114465 /* YCNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCNavigationController.swift; sourceTree = "<group>"; };
+		2AF156C723ACC3AF00114465 /* getlist_shenghuozatan */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = getlist_shenghuozatan; sourceTree = "<group>"; };
+		2AF156C823ACC3AF00114465 /* getlist_sheyouzu */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = getlist_sheyouzu; sourceTree = "<group>"; };
+		2AF156C923ACC3AF00114465 /* getlist_quanminshiche */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = getlist_quanminshiche; sourceTree = "<group>"; };
+		2AF156CA23ACC3AF00114465 /* getlist_zhugong999 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = getlist_zhugong999; sourceTree = "<group>"; };
+		2AF156CB23ACC3AF00114465 /* getlist_tichehuizong */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = getlist_tichehuizong; sourceTree = "<group>"; };
+		2AF156CC23ACC3AF00114465 /* getlist_lvxingyouji */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = getlist_lvxingyouji; sourceTree = "<group>"; };
+		2AF156CD23ACC3AF00114465 /* getlist_nvshenjiadao */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = getlist_nvshenjiadao; sourceTree = "<group>"; };
+		2AF156CE23ACC3AF00114465 /* recommendList */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = recommendList; sourceTree = "<group>"; };
+		2AF156CF23ACC3AF00114465 /* getlist_cheyoujuhui */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = getlist_cheyoujuhui; sourceTree = "<group>"; };
+		2AF156D023ACC3AF00114465 /* getlist_mengwaxiuchang */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = getlist_mengwaxiuchang; sourceTree = "<group>"; };
+		2AF156D123ACC3AF00114465 /* getlist_sheyingxueyuan */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = getlist_sheyingxueyuan; sourceTree = "<group>"; };
+		2AF156D223ACC3AF00114465 /* getsubclasses */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = getsubclasses; sourceTree = "<group>"; };
+		2AF156D323ACC3AF00114465 /* getlist_gaizhuangyizu */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = getlist_gaizhuangyizu; sourceTree = "<group>"; };
+		2AF156D423ACC3AF00114465 /* getlist_yongchebaoyang */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = getlist_yongchebaoyang; sourceTree = "<group>"; };
+		2AF156D523ACC3AF00114465 /* getlist_zuixinjingxuan */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = getlist_zuixinjingxuan; sourceTree = "<group>"; };
+		2F31AF49EB1891BA39C60A83 /* Pods-qichehui.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qichehui.debug.xcconfig"; path = "Pods/Target Support Files/Pods-qichehui/Pods-qichehui.debug.xcconfig"; sourceTree = "<group>"; };
+		B4B51F37020B064CC4A47C1E /* Pods_qichehui.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_qichehui.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A5FA66223ACB09B00E76505 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0083B52A0DE860DB421446A1 /* Pods_qichehui.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		062C5741E53BF015ABBB4FA3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4B51F37020B064CC4A47C1E /* Pods_qichehui.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A1BC7BA23E90FBB009692AC /* NewEnergy */ = {
+			isa = PBXGroup;
+			children = (
+				2A1BC7C623E91E33009692AC /* Model */,
+				2A1BC7C523E91E29009692AC /* View */,
+				2A1BC7BB23E912EE009692AC /* YCNewCarNewEnergyViewController.swift */,
+			);
+			path = NewEnergy;
+			sourceTree = "<group>";
+		};
+		2A1BC7C523E91E29009692AC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2A1BC7C723E91E5D009692AC /* YCNewCarNewEnergyHeaderView.swift */,
+				2A1BC7CB23E9AB11009692AC /* YCNewCarEnergySelectConditionsView.swift */,
+				2A3D31E723EBA9BA00C6F9BC /* YCNewEnergyPriceReduceListView.swift */,
+				2A3D31E923EBABB600C6F9BC /* YCNewCarEnergyPerCarItemView.swift */,
+				2AA40F3D23EE4B6300775032 /* YCNewCarEnergyWorthToBuyView.swift */,
+				2AA40F3F23EE4FF700775032 /* YCNewCarNewEnergyBrandView.swift */,
+				2A311B7E23EE9C6600A0104E /* YCNewCarNewEnergyRecommendHeaderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2A1BC7C623E91E33009692AC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2A1BC7C923E92011009692AC /* YCNewEnergyModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2A219F7C23B85C8400A42C5A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2A219F7D23B85C9800A42C5A /* YCHomeHeaderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2A22611C23C071BD00586045 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2A22611D23C071D700586045 /* YCHomeAreaModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2A22611F23C0882600586045 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2A22612023C0884100586045 /* YCHomeAreaHeaderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2A26DD4823B8E44800FCC77D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2AD21C3423CE920E0052E098 /* video_applist */,
+				2AD21C3523CE920E0052E098 /* video_tags_type */,
+				2A2802EF23C9BF7F007EA7EF /* get_liveList_zhibo */,
+				2A2802F023C9BF7F007EA7EF /* get_lives_zhibo */,
+				2A22611923C06C2700586045 /* area_tab_show */,
+				2A22611823C06C2700586045 /* get_area_channel */,
+				2A498D8B23BC8AE00092AD37 /* ads */,
+				2A27939A23BA014400103659 /* shipin */,
+				2A27939823BA014400103659 /* tuijian */,
+				2A26DD4923B8E44800FCC77D /* get_materials */,
+				2A26DD4A23B8E44800FCC77D /* common_show */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2A26DD4D23B8E63D00FCC77D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2A26DD4E23B8E65600FCC77D /* YCHomeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2A27939523B99B4500103659 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2AF155F523ACB25B00114465 /* YCHomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2A27939E23BA025300103659 /* Recommend-推荐 */ = {
+			isa = PBXGroup;
+			children = (
+				2A2793B423BA0CEC00103659 /* Model */,
+				2A2793AB23BA090E00103659 /* View */,
+				2A27939623B99B5B00103659 /* YCHomeRecommendViewController.swift */,
+			);
+			path = "Recommend-推荐";
+			sourceTree = "<group>";
+		};
+		2A27939F23BA026600103659 /* Video-视频 */ = {
+			isa = PBXGroup;
+			children = (
+				2A498D9323BCDAF10092AD37 /* Model */,
+				2A498D9023BCD9310092AD37 /* View */,
+				2A2793A223BA02B700103659 /* YCHomeVideoViewController.swift */,
+			);
+			path = "Video-视频";
+			sourceTree = "<group>";
+		};
+		2A2793A023BA027E00103659 /* Area-本地 */ = {
+			isa = PBXGroup;
+			children = (
+				2A22611F23C0882600586045 /* View */,
+				2A22611C23C071BD00586045 /* Model */,
+				2A2793A423BA02C300103659 /* YCHomeAreaViewController.swift */,
+			);
+			path = "Area-本地";
+			sourceTree = "<group>";
+		};
+		2A2793A123BA029700103659 /* Alive-直播 */ = {
+			isa = PBXGroup;
+			children = (
+				2A2802F623C9C757007EA7EF /* View */,
+				2A2802F323C9C0EA007EA7EF /* Model */,
+				2A2793A623BA02CD00103659 /* YCHomeAliveViewController.swift */,
+			);
+			path = "Alive-直播";
+			sourceTree = "<group>";
+		};
+		2A2793A823BA03CC00103659 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2A2793A923BA03E000103659 /* YCHomeBaseViewController.swift */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		2A2793AB23BA090E00103659 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2A2793AC23BA0A8A00103659 /* YCHomeType21Cell.swift */,
+				2A2793AE23BA0AAD00103659 /* YCHomeType4Cell.swift */,
+				2A2793B023BA0ACC00103659 /* YCHomeType20Cell.swift */,
+				2A2793B223BA0B0C00103659 /* YCHomeType41Cell.swift */,
+				2A498D8D23BC94D20092AD37 /* YCADType2Cell.swift */,
+				2A90AC7823C15953000311D8 /* YCHomeType30Cell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2A2793B423BA0CEC00103659 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2A2793B523BA0EC700103659 /* HomeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2A2802F323C9C0EA007EA7EF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2A2802F423C9C106007EA7EF /* YCHomeAliveMode.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2A2802F623C9C757007EA7EF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2A2802F723C9C76D007EA7EF /* YCHomeAliveHeaderView.swift */,
+				2A2802F923C9C912007EA7EF /* YCHomeAliveCell.swift */,
+				2A2A6E0C23CAA75E00F67A94 /* YCHomeAliveHeaderPagerCell.swift */,
+				2A2902FB23CD35B600222AF3 /* YCHomeAliveHeaderRecUserCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2A2A6B0D23E41E8A006F29F8 /* NewCar */ = {
+			isa = PBXGroup;
+			children = (
+				2A458EE723FE6FBE00AC5454 /* get_header_info_pingxingjinkou */,
+				2A458EE823FE6FBE00AC5454 /* get_master_brands_pingxingjinkou */,
+				2A458EE523FE6F8100AC5454 /* GetValue_tehuipinpai */,
+				2A458EFA23FE99CC00AC5454 /* getTeHuiPinPaiBsList_tehuipinpai */,
+				2ADC166023FBCAB600A57BB5 /* selectcarforappv2_haohuapinpai */,
+				2ADC165923FB80BB00A57BB5 /* getGBPriceReduceList_haohuapinpai */,
+				2ADC165A23FB80BB00A57BB5 /* grandBrandHeadNoPR_haohuapinpai */,
+				2A1BC7BF23E91643009692AC /* get_master_brands_xinnengyuan */,
+				2A1BC7C123E91643009692AC /* getENPriceReduceList_xinnengyuan */,
+				2A1BC7C023E91643009692AC /* newEnergyHeadNoPR_xinnengyuan */,
+				2A2A6B0E23E41EA2006F29F8 /* get_car_home_icon_xinche */,
+				2A2A6B0F23E41EA2006F29F8 /* get_master_brands_xinche */,
+			);
+			path = NewCar;
+			sourceTree = "<group>";
+		};
+		2A2A6B1223E434F3006F29F8 /* NewCar */ = {
+			isa = PBXGroup;
+			children = (
+				2A2D221423E50D6A0035A735 /* View */,
+				2A2D221623E50D820035A735 /* Model */,
+				2A2A6B1323E4398B006F29F8 /* YCNewCarCarViewController.swift */,
+			);
+			path = NewCar;
+			sourceTree = "<group>";
+		};
+		2A2D221423E50D6A0035A735 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2A2D221723E50DA50035A735 /* YCNewCarCell.swift */,
+				2ADDF3E223E6F71300C40FB3 /* YCNewCarHeaderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2A2D221623E50D820035A735 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2A2D221923E5100D0035A735 /* YCNewCarModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2A34F4F723F3846B002BF063 /* LuxuryBrand */ = {
+			isa = PBXGroup;
+			children = (
+				2ADC165F23FB86C100A57BB5 /* Model */,
+				2A34F4FA23F3862E002BF063 /* View */,
+				2A34F4F823F38492002BF063 /* YCNewCarLuxuryBrandViewController.swift */,
+			);
+			path = LuxuryBrand;
+			sourceTree = "<group>";
+		};
+		2A34F4FA23F3862E002BF063 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2A34F4FB23F38D53002BF063 /* YCNewCarLuxuryBrandCell.swift */,
+				2ADC165D23FB82A200A57BB5 /* YCNewCarLuxuryBrandHeaderView.swift */,
+				2A458EE123FE1ED800AC5454 /* YCNewCarLuxuryBrandModelTagsDynamicView.swift */,
+				2A458EE323FE618400AC5454 /* YCNewCarLuxuryBrandSelectOptionView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2A458EEB23FE899900AC5454 /* PreferentialBrand */ = {
+			isa = PBXGroup;
+			children = (
+				2A458EF723FE910700AC5454 /* Model */,
+				2A458EF123FE8F9100AC5454 /* View */,
+				2A458EEC23FE89BF00AC5454 /* YCNewCarPreferentialBrandViewController.swift */,
+			);
+			path = PreferentialBrand;
+			sourceTree = "<group>";
+		};
+		2A458EEE23FE8C7E00AC5454 /* ParallelImport */ = {
+			isa = PBXGroup;
+			children = (
+				2A9354332405298600EF84CF /* Model */,
+				2A458EF423FE8FA700AC5454 /* View */,
+				2A458EEF23FE8C9A00AC5454 /* YCNewCarParallelImportViewController.swift */,
+			);
+			path = ParallelImport;
+			sourceTree = "<group>";
+		};
+		2A458EF123FE8F9100AC5454 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2A458EF223FE8F9F00AC5454 /* YCNewCarPreferentialBrandHeaderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2A458EF423FE8FA700AC5454 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2A458EF523FE8FE100AC5454 /* YCNewCarParallelImportHeaderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2A458EF723FE910700AC5454 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2A458EF823FE911F00AC5454 /* YCNewCarPreferentialBrandModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2A498D8F23BCCFD00092AD37 /* PagerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2A2793A823BA03CC00103659 /* BaseViewController */,
+				2AD21C2C23CE870E0052E098 /* ShortVideo-小视频 */,
+				2A2793A123BA029700103659 /* Alive-直播 */,
+				2A2793A023BA027E00103659 /* Area-本地 */,
+				2A27939F23BA026600103659 /* Video-视频 */,
+				2A27939E23BA025300103659 /* Recommend-推荐 */,
+			);
+			path = PagerViewController;
+			sourceTree = "<group>";
+		};
+		2A498D9023BCD9310092AD37 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2A498D9123BCD9500092AD37 /* YCHomeVideoCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2A498D9323BCDAF10092AD37 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2A498D9423BCDB9F0092AD37 /* YCHomeVideoModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2A5FA65C23ACB09A00E76505 = {
+			isa = PBXGroup;
+			children = (
+				2A5FA66723ACB09B00E76505 /* qichehui */,
+				2A5FA66623ACB09B00E76505 /* Products */,
+				5C38B683D41EA09113A05386 /* Pods */,
+				062C5741E53BF015ABBB4FA3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2A5FA66623ACB09B00E76505 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A5FA66523ACB09B00E76505 /* qichehui.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A5FA66723ACB09B00E76505 /* qichehui */ = {
+			isa = PBXGroup;
+			children = (
+				2AF155F323ACB25B00114465 /* Classes */,
+				2A5FA67123ACB09C00E76505 /* Assets.xcassets */,
+				2A5FA67623ACB09C00E76505 /* Info.plist */,
+			);
+			path = qichehui;
+			sourceTree = "<group>";
+		};
+		2A9354332405298600EF84CF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2A935434240529A100EF84CF /* YCNewCarParallelImportModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2AD21C2C23CE870E0052E098 /* ShortVideo-小视频 */ = {
+			isa = PBXGroup;
+			children = (
+				2AD21C3823CE926F0052E098 /* Model */,
+				2AD21C3123CE89420052E098 /* View */,
+				2AD21C2D23CE87590052E098 /* YCHomeShortVideoController.swift */,
+			);
+			path = "ShortVideo-小视频";
+			sourceTree = "<group>";
+		};
+		2AD21C3123CE89420052E098 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2AD21C3223CE895E0052E098 /* YCHomeShortVideoCell.swift */,
+				2AD21C3B23CEA8DF0052E098 /* YCHomeShortVideoTagsView.swift */,
+				2AD21C3D23CEAB4A0052E098 /* YCHomeShortVideoTagView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2AD21C3823CE926F0052E098 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2AD21C3923CE929C0052E098 /* YCHomeShortVideoModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2ADC165F23FB86C100A57BB5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2ADC165723FB7ED800A57BB5 /* YCNewCarLuxuryBrandModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2AF155F323ACB25B00114465 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2AF155FC23ACB25B00114465 /* LocalData */,
+				2AF1566B23ACB25C00114465 /* Main */,
+				2AF155F423ACB25B00114465 /* Home */,
+				2AF1562323ACB25B00114465 /* Forum */,
+				2AF1566923ACB25C00114465 /* NewCar */,
+				2AF1560E23ACB25B00114465 /* UsedCar */,
+				2AF1565323ACB25B00114465 /* Profile */,
+				2AF1564923ACB25B00114465 /* Common */,
+				2AF1561823ACB25B00114465 /* Other */,
+				2AF155F623ACB25B00114465 /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2AF155F423ACB25B00114465 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2A498D8F23BCCFD00092AD37 /* PagerViewController */,
+				2A26DD4D23B8E63D00FCC77D /* Model */,
+				2A219F7C23B85C8400A42C5A /* View */,
+				2A27939523B99B4500103659 /* Controller */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2AF155F623ACB25B00114465 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				2AD21C2F23CE88BE0052E098 /* WaterFlowLayout.swift */,
+				2AF155F723ACB25B00114465 /* Kingfisher+Extension.swift */,
+				2AF155F823ACB25B00114465 /* UIImage+Extension.swift */,
+				2AF155F923ACB25B00114465 /* YCUtils.swift */,
+				2AF155FA23ACB25B00114465 /* UIView+Frame.swift */,
+				2AF155FB23ACB25B00114465 /* LocationManager.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		2AF155FC23ACB25B00114465 /* LocalData */ = {
+			isa = PBXGroup;
+			children = (
+				2A2A6B0D23E41E8A006F29F8 /* NewCar */,
+				2A26DD4823B8E44800FCC77D /* Home */,
+				2AF155FD23ACB25B00114465 /* UsedCar */,
+				2AF1560123ACB25B00114465 /* Fortum */,
+				2AF1560223ACB25B00114465 /* Profile */,
+			);
+			path = LocalData;
+			sourceTree = "<group>";
+		};
+		2AF155FD23ACB25B00114465 /* UsedCar */ = {
+			isa = PBXGroup;
+			children = (
+				2AF155FE23ACB25B00114465 /* Brand */,
+				2AF155FF23ACB25B00114465 /* get_header_info */,
+				2AF1560023ACB25B00114465 /* get_ad_info */,
+			);
+			path = UsedCar;
+			sourceTree = "<group>";
+		};
+		2AF1560123ACB25B00114465 /* Fortum */ = {
+			isa = PBXGroup;
+			children = (
+				2AF156CF23ACC3AF00114465 /* getlist_cheyoujuhui */,
+				2AF156D323ACC3AF00114465 /* getlist_gaizhuangyizu */,
+				2AF156CC23ACC3AF00114465 /* getlist_lvxingyouji */,
+				2AF156D023ACC3AF00114465 /* getlist_mengwaxiuchang */,
+				2AF156CD23ACC3AF00114465 /* getlist_nvshenjiadao */,
+				2AF156C923ACC3AF00114465 /* getlist_quanminshiche */,
+				2AF156C723ACC3AF00114465 /* getlist_shenghuozatan */,
+				2AF156D123ACC3AF00114465 /* getlist_sheyingxueyuan */,
+				2AF156C823ACC3AF00114465 /* getlist_sheyouzu */,
+				2AF156CB23ACC3AF00114465 /* getlist_tichehuizong */,
+				2AF156D423ACC3AF00114465 /* getlist_yongchebaoyang */,
+				2AF156CA23ACC3AF00114465 /* getlist_zhugong999 */,
+				2AF156D523ACC3AF00114465 /* getlist_zuixinjingxuan */,
+				2AF156D223ACC3AF00114465 /* getsubclasses */,
+				2AF156CE23ACC3AF00114465 /* recommendList */,
+			);
+			path = Fortum;
+			sourceTree = "<group>";
+		};
+		2AF1560223ACB25B00114465 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				2AF1560323ACB25B00114465 /* products */,
+				2AF1560423ACB25B00114465 /* get_order_stat */,
+				2AF1560523ACB25B00114465 /* GetUseCarByTagsType1 */,
+				2AF1560623ACB25B00114465 /* MoreProduct */,
+				2AF1560A23ACB25B00114465 /* common_material */,
+				2AF1560B23ACB25B00114465 /* indexviewdata */,
+				2AF1560C23ACB25B00114465 /* GetUseCarByTagsType2 */,
+				2AF1560D23ACB25B00114465 /* get_member_status_info */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		2AF1560623ACB25B00114465 /* MoreProduct */ = {
+			isa = PBXGroup;
+			children = (
+				2AF1560723ACB25B00114465 /* category */,
+				2AF1560823ACB25B00114465 /* more_products */,
+				2AF1560923ACB25B00114465 /* subject */,
+			);
+			path = MoreProduct;
+			sourceTree = "<group>";
+		};
+		2AF1560E23ACB25B00114465 /* UsedCar */ = {
+			isa = PBXGroup;
+			children = (
+				2AF1560F23ACB25B00114465 /* YCUsedCarViewController.swift */,
+				2AF1561023ACB25B00114465 /* Model */,
+				2AF1561223ACB25B00114465 /* View */,
+			);
+			path = UsedCar;
+			sourceTree = "<group>";
+		};
+		2AF1561023ACB25B00114465 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2AF1561123ACB25B00114465 /* YCUsedCarModels.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2AF1561223ACB25B00114465 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2AF1561323ACB25B00114465 /* YCCarBrandCell.swift */,
+				2AF1561423ACB25B00114465 /* YCCustomPagerCell.swift */,
+				2AF1561523ACB25B00114465 /* YCUsedCarFavorView.swift */,
+				2AF1561623ACB25B00114465 /* YCUsedCarHeaderView.swift */,
+				2AF1561723ACB25B00114465 /* YCCarBrandHeaderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2AF1561823ACB25B00114465 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				2AF1562223ACB25B00114465 /* AppDelegate.swift */,
+				2AF1561923ACB25B00114465 /* LaunchScreen.storyboard */,
+				2AF1561A23ACB25B00114465 /* LaunchImage */,
+				2A2AF76123D8314800A7DD49 /* ViewController.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		2AF1561A23ACB25B00114465 /* LaunchImage */ = {
+			isa = PBXGroup;
+			children = (
+				2AF1561B23ACB25B00114465 /* LaunchImage-1100-Portrait-2436h@3x.png */,
+				2AF1561C23ACB25B00114465 /* LaunchImage-800-667h@2x.png */,
+				2AF1561D23ACB25B00114465 /* LaunchImage-1200-Portrait-2688h@3x.png */,
+				2AF1561E23ACB25B00114465 /* LaunchImage-800-Portrait-736h@3x.png */,
+				2AF1561F23ACB25B00114465 /* LaunchImage-700@2x.png */,
+				2AF1562023ACB25B00114465 /* LaunchImage-700-568h@2x.png */,
+				2AF1562123ACB25B00114465 /* LaunchImage-1200-Portrait-1792h@2x.png */,
+			);
+			path = LaunchImage;
+			sourceTree = "<group>";
+		};
+		2AF1562323ACB25B00114465 /* Forum */ = {
+			isa = PBXGroup;
+			children = (
+				2AF1563623ACB25B00114465 /* BasePagerViewController */,
+				2AF1562423ACB25B00114465 /* Photo-摄友族 */,
+				2AF1562623ACB25B00114465 /* Change-改装一族 */,
+				2AF1562823ACB25B00114465 /* BuyCar-提车汇总 */,
+				2AF1562A23ACB25B00114465 /* Life-生活杂谈 */,
+				2AF1562C23ACB25B00114465 /* Travel-旅行游记 */,
+				2AF1562E23ACB25B00114465 /* UseCar用车保养 */,
+				2AF1563023ACB25B00114465 /* Baby-萌娃秀场 */,
+				2AF1563223ACB25B00114465 /* Woman-女神驾到 */,
+				2AF1563423ACB25B00114465 /* Yard-摄影学院 */,
+				2AF1563C23ACB25B00114465 /* Driver-全民试车 */,
+				2AF1563E23ACB25B00114465 /* Choiceness-精选 */,
+				2AF1564023ACB25B00114465 /* Helper-助攻999 */,
+				2AF1564223ACB25B00114465 /* Party-车友聚会 */,
+				2AF1564423ACB25B00114465 /* ForumIndex */,
+			);
+			path = Forum;
+			sourceTree = "<group>";
+		};
+		2AF1562423ACB25B00114465 /* Photo-摄友族 */ = {
+			isa = PBXGroup;
+			children = (
+				2AF1562523ACB25B00114465 /* YCFortumPhotoViewController.swift */,
+			);
+			path = "Photo-摄友族";
+			sourceTree = "<group>";
+		};
+		2AF1562623ACB25B00114465 /* Change-改装一族 */ = {
+			isa = PBXGroup;
+			children = (
+				2AF1562723ACB25B00114465 /* YCFortumChangeViewController.swift */,
+			);
+			path = "Change-改装一族";
+			sourceTree = "<group>";
+		};
+		2AF1562823ACB25B00114465 /* BuyCar-提车汇总 */ = {
+			isa = PBXGroup;
+			children = (
+				2AF1562923ACB25B00114465 /* YCFortumBuyCarViewController.swift */,
+			);
+			path = "BuyCar-提车汇总";
+			sourceTree = "<group>";
+		};
+		2AF1562A23ACB25B00114465 /* Life-生活杂谈 */ = {
+			isa = PBXGroup;
+			children = (
+				2AF1562B23ACB25B00114465 /* YCFortumLifeViewController.swift */,
+			);
+			path = "Life-生活杂谈";
+			sourceTree = "<group>";
+		};
+		2AF1562C23ACB25B00114465 /* Travel-旅行游记 */ = {
+			isa = PBXGroup;
+			children = (
+				2AF1562D23ACB25B00114465 /* YCFortumTravelViewController.swift */,
+			);
+			path = "Travel-旅行游记";
+			sourceTree = "<group>";
+		};
+		2AF1562E23ACB25B00114465 /* UseCar用车保养 */ = {
+			isa = PBXGroup;
+			children = (
+				2AF1562F23ACB25B00114465 /* YCFortumCarUseViewController.swift */,
+			);
+			path = "UseCar用车保养";
+			sourceTree = "<group>";
+		};
+		2AF1563023ACB25B00114465 /* Baby-萌娃秀场 */ = {
+			isa = PBXGroup;
+			children = (
+				2AF1563123ACB25B00114465 /* YCFortumBayViewController.swift */,
+			);
+			path = "Baby-萌娃秀场";
+			sourceTree = "<group>";
+		};
+		2AF1563223ACB25B00114465 /* Woman-女神驾到 */ = {
+			isa = PBXGroup;
+			children = (
+				2AF1563323ACB25B00114465 /* YCFortumWomanViewController.swift */,
+			);
+			path = "Woman-女神驾到";
+			sourceTree = "<group>";
+		};
+		2AF1563423ACB25B00114465 /* Yard-摄影学院 */ = {
+			isa = PBXGroup;
+			children = (
+				2AF1563523ACB25B00114465 /* YCFortumYardViewController.swift */,
+			);
+			path = "Yard-摄影学院";
+			sourceTree = "<group>";
+		};
+		2AF1563623ACB25B00114465 /* BasePagerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2AF1563723ACB25B00114465 /* Model */,
+				2AF1563923ACB25B00114465 /* View */,
+				2AF1563B23ACB25B00114465 /* YCFortumPagerViewController.swift */,
+			);
+			path = BasePagerViewController;
+			sourceTree = "<group>";
+		};
+		2AF1563723ACB25B00114465 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2AF1563823ACB25B00114465 /* YCFortumModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2AF1563923ACB25B00114465 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2AF1563A23ACB25B00114465 /* YCFortumCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2AF1563C23ACB25B00114465 /* Driver-全民试车 */ = {
+			isa = PBXGroup;
+			children = (
+				2AF1563D23ACB25B00114465 /* YCFortumDriverViewController.swift */,
+			);
+			path = "Driver-全民试车";
+			sourceTree = "<group>";
+		};
+		2AF1563E23ACB25B00114465 /* Choiceness-精选 */ = {
+			isa = PBXGroup;
+			children = (
+				2AF1563F23ACB25B00114465 /* YCChoicenessViewController.swift */,
+			);
+			path = "Choiceness-精选";
+			sourceTree = "<group>";
+		};
+		2AF1564023ACB25B00114465 /* Helper-助攻999 */ = {
+			isa = PBXGroup;
+			children = (
+				2AF1564123ACB25B00114465 /* YCFortumHelperViewController.swift */,
+			);
+			path = "Helper-助攻999";
+			sourceTree = "<group>";
+		};
+		2AF1564223ACB25B00114465 /* Party-车友聚会 */ = {
+			isa = PBXGroup;
+			children = (
+				2AF1564323ACB25B00114465 /* YCFortumPartyViewController.swift */,
+			);
+			path = "Party-车友聚会";
+			sourceTree = "<group>";
+		};
+		2AF1564423ACB25B00114465 /* ForumIndex */ = {
+			isa = PBXGroup;
+			children = (
+				2AF1564723ACB25B00114465 /* View */,
+				2AF1564523ACB25B00114465 /* Controller */,
+			);
+			path = ForumIndex;
+			sourceTree = "<group>";
+		};
+		2AF1564523ACB25B00114465 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2AF1564623ACB25B00114465 /* YCForumViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2AF1564723ACB25B00114465 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2AF1564823ACB25B00114465 /* YCForumHeaderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2AF1564923ACB25B00114465 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2AF1564A23ACB25B00114465 /* Constant.swift */,
+				2AF1564B23ACB25B00114465 /* UIDevice+Extension.swift */,
+				2AF1564C23ACB25B00114465 /* YCCustomButton.swift */,
+				2AF1564D23ACB25B00114465 /* UIImage+Color.swift */,
+				2AF1564E23ACB25B00114465 /* UIColor+Extenssion.swift */,
+				2A8B18FC23B22D1B00B2338B /* YCAccountManager.swift */,
+				2A1E93D723E17E2C00D9C894 /* CSTitleView.swift */,
+				2A2D221B23E542520035A735 /* YCBasePagerViewController.swift */,
+				2AD47F8B23EFE6A000191BB1 /* NavigationItemTitleView.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		2AF1565323ACB25B00114465 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				2AF1565423ACB25C00114465 /* ProfieIndex */,
+				2AF1566023ACB25C00114465 /* ShowMoreProduct */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		2AF1565423ACB25C00114465 /* ProfieIndex */ = {
+			isa = PBXGroup;
+			children = (
+				2AF1565523ACB25C00114465 /* YCProfileViewController.swift */,
+				2AF1565623ACB25C00114465 /* Model */,
+				2AF1565823ACB25C00114465 /* View */,
+			);
+			path = ProfieIndex;
+			sourceTree = "<group>";
+		};
+		2AF1565623ACB25C00114465 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2AF1565723ACB25C00114465 /* YCProfileModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2AF1565823ACB25C00114465 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2AF1565923ACB25C00114465 /* YCProfileHeaderView.swift */,
+				2AF1565A23ACB25C00114465 /* YCCarView.swift */,
+				2AF1565B23ACB25C00114465 /* YCCarCoinView.swift */,
+				2AF1565C23ACB25C00114465 /* YCProfileTopView.swift */,
+				2AF1565D23ACB25C00114465 /* YCCarServiceView.swift */,
+				2AF1565E23ACB25C00114465 /* YCProfileCell.swift */,
+				2AF1565F23ACB25C00114465 /* YCCarCoinButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2AF1566023ACB25C00114465 /* ShowMoreProduct */ = {
+			isa = PBXGroup;
+			children = (
+				2AF1566123ACB25C00114465 /* YCShowMoreViewController.swift */,
+				2AF1566223ACB25C00114465 /* Model */,
+				2AF1566423ACB25C00114465 /* View */,
+			);
+			path = ShowMoreProduct;
+			sourceTree = "<group>";
+		};
+		2AF1566223ACB25C00114465 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2AF1566323ACB25C00114465 /* YCShowMoreModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2AF1566423ACB25C00114465 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2AF1566523ACB25C00114465 /* YCShowMoreTitleView.swift */,
+				2AF1566623ACB25C00114465 /* YCSHowMoreHeaderView.swift */,
+				2AF1566723ACB25C00114465 /* YCShowMoreCellNode.swift */,
+				2AF1566823ACB25C00114465 /* YCShowMorePerProductView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2AF1566923ACB25C00114465 /* NewCar */ = {
+			isa = PBXGroup;
+			children = (
+				2A458EEE23FE8C7E00AC5454 /* ParallelImport */,
+				2A458EEB23FE899900AC5454 /* PreferentialBrand */,
+				2A34F4F723F3846B002BF063 /* LuxuryBrand */,
+				2A1BC7BA23E90FBB009692AC /* NewEnergy */,
+				2A2A6B1223E434F3006F29F8 /* NewCar */,
+				2AF1566A23ACB25C00114465 /* YCNewCarViewController.swift */,
+			);
+			path = NewCar;
+			sourceTree = "<group>";
+		};
+		2AF1566B23ACB25C00114465 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2AF1566C23ACB25C00114465 /* YCTabBarController.swift */,
+				2AF1566D23ACB25C00114465 /* YCBaseViewController.swift */,
+				2AF1566E23ACB25C00114465 /* YCNavigationController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		5C38B683D41EA09113A05386 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F31AF49EB1891BA39C60A83 /* Pods-qichehui.debug.xcconfig */,
+				107B863DAE33AF6E5CF3A100 /* Pods-qichehui.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A5FA66423ACB09B00E76505 /* qichehui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A5FA67923ACB09C00E76505 /* Build configuration list for PBXNativeTarget "qichehui" */;
+			buildPhases = (
+				729A2C4D8A3AB7BC682B6E6A /* [CP] Check Pods Manifest.lock */,
+				2A5FA66123ACB09B00E76505 /* Sources */,
+				2A5FA66223ACB09B00E76505 /* Frameworks */,
+				2A5FA66323ACB09B00E76505 /* Resources */,
+				24DA798874BFCB23A7295B8E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = qichehui;
+			productName = qichehui;
+			productReference = 2A5FA66523ACB09B00E76505 /* qichehui.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A5FA65D23ACB09A00E76505 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = SMART;
+				TargetAttributes = {
+					2A5FA66423ACB09B00E76505 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 2A5FA66023ACB09A00E76505 /* Build configuration list for PBXProject "qichehui" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A5FA65C23ACB09A00E76505;
+			productRefGroup = 2A5FA66623ACB09B00E76505 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A5FA66423ACB09B00E76505 /* qichehui */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A5FA66323ACB09B00E76505 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A22611B23C06C2700586045 /* area_tab_show in Resources */,
+				2AD21C3623CE920E0052E098 /* video_applist in Resources */,
+				2AF156DC23ACC3B000114465 /* getlist_nvshenjiadao in Resources */,
+				2AF156E423ACC3B000114465 /* getlist_zuixinjingxuan in Resources */,
+				2AF156DA23ACC3B000114465 /* getlist_tichehuizong in Resources */,
+				2AD21C3723CE920E0052E098 /* video_tags_type in Resources */,
+				2AF1567923ACB25C00114465 /* get_order_stat in Resources */,
+				2A26DD4B23B8E44800FCC77D /* get_materials in Resources */,
+				2A27939D23BA014400103659 /* shipin in Resources */,
+				2A2A6B1023E41EA2006F29F8 /* get_car_home_icon_xinche in Resources */,
+				2A458EE923FE6FBE00AC5454 /* get_header_info_pingxingjinkou in Resources */,
+				2ADC166123FBCAB600A57BB5 /* selectcarforappv2_haohuapinpai in Resources */,
+				2AF156D623ACC3B000114465 /* getlist_shenghuozatan in Resources */,
+				2AF1568A23ACB25C00114465 /* LaunchImage-1100-Portrait-2436h@3x.png in Resources */,
+				2A1BC7C323E91643009692AC /* newEnergyHeadNoPR_xinnengyuan in Resources */,
+				2AF1568F23ACB25C00114465 /* LaunchImage-700-568h@2x.png in Resources */,
+				2A1BC7C423E91643009692AC /* getENPriceReduceList_xinnengyuan in Resources */,
+				2A458EE623FE6F8100AC5454 /* GetValue_tehuipinpai in Resources */,
+				2ADC165C23FB80BB00A57BB5 /* grandBrandHeadNoPR_haohuapinpai in Resources */,
+				2AF156E223ACC3B000114465 /* getlist_gaizhuangyizu in Resources */,
+				2A2A6B1123E41EA2006F29F8 /* get_master_brands_xinche in Resources */,
+				2AF1567F23ACB25C00114465 /* indexviewdata in Resources */,
+				2AF156DF23ACC3B000114465 /* getlist_mengwaxiuchang in Resources */,
+				2AF1567D23ACB25C00114465 /* subject in Resources */,
+				2AF156E123ACC3B000114465 /* getsubclasses in Resources */,
+				2AF156D823ACC3B000114465 /* getlist_quanminshiche in Resources */,
+				2AF1567723ACB25C00114465 /* get_ad_info in Resources */,
+				2A22611A23C06C2700586045 /* get_area_channel in Resources */,
+				2A458EFB23FE99CC00AC5454 /* getTeHuiPinPaiBsList_tehuipinpai in Resources */,
+				2AF1568C23ACB25C00114465 /* LaunchImage-1200-Portrait-2688h@3x.png in Resources */,
+				2AF156DB23ACC3B000114465 /* getlist_lvxingyouji in Resources */,
+				2AF1567523ACB25C00114465 /* Brand in Resources */,
+				2A2802F123C9BF7F007EA7EF /* get_liveList_zhibo in Resources */,
+				2AF1568123ACB25C00114465 /* get_member_status_info in Resources */,
+				2A26DD4C23B8E44800FCC77D /* common_show in Resources */,
+				2A458EEA23FE6FBE00AC5454 /* get_master_brands_pingxingjinkou in Resources */,
+				2AF156DE23ACC3B000114465 /* getlist_cheyoujuhui in Resources */,
+				2AF156E023ACC3B000114465 /* getlist_sheyingxueyuan in Resources */,
+				2AF1568D23ACB25C00114465 /* LaunchImage-800-Portrait-736h@3x.png in Resources */,
+				2AF156DD23ACC3B000114465 /* recommendList in Resources */,
+				2AF1567823ACB25C00114465 /* products in Resources */,
+				2ADC165B23FB80BB00A57BB5 /* getGBPriceReduceList_haohuapinpai in Resources */,
+				2AF1567A23ACB25C00114465 /* GetUseCarByTagsType1 in Resources */,
+				2AF1569023ACB25C00114465 /* LaunchImage-1200-Portrait-1792h@2x.png in Resources */,
+				2AF1568E23ACB25C00114465 /* LaunchImage-700@2x.png in Resources */,
+				2AF156D723ACC3B000114465 /* getlist_sheyouzu in Resources */,
+				2AF1568923ACB25C00114465 /* LaunchScreen.storyboard in Resources */,
+				2AF156E323ACC3B000114465 /* getlist_yongchebaoyang in Resources */,
+				2AF1567623ACB25C00114465 /* get_header_info in Resources */,
+				2AF1567C23ACB25C00114465 /* more_products in Resources */,
+				2A498D8C23BC8AE10092AD37 /* ads in Resources */,
+				2AF156D923ACC3B000114465 /* getlist_zhugong999 in Resources */,
+				2A1BC7C223E91643009692AC /* get_master_brands_xinnengyuan in Resources */,
+				2AF1568B23ACB25C00114465 /* LaunchImage-800-667h@2x.png in Resources */,
+				2A27939B23BA014400103659 /* tuijian in Resources */,
+				2AF1567B23ACB25C00114465 /* category in Resources */,
+				2AF1567E23ACB25C00114465 /* common_material in Resources */,
+				2A5FA67223ACB09C00E76505 /* Assets.xcassets in Resources */,
+				2A2802F223C9BF7F007EA7EF /* get_lives_zhibo in Resources */,
+				2AF1568023ACB25C00114465 /* GetUseCarByTagsType2 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24DA798874BFCB23A7295B8E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-qichehui/Pods-qichehui-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-qichehui/Pods-qichehui-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-qichehui/Pods-qichehui-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		729A2C4D8A3AB7BC682B6E6A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-qichehui-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A5FA66123ACB09B00E76505 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A2A6B1423E4398B006F29F8 /* YCNewCarCarViewController.swift in Sources */,
+				2AD21C2E23CE87590052E098 /* YCHomeShortVideoController.swift in Sources */,
+				2A2793A323BA02B700103659 /* YCHomeVideoViewController.swift in Sources */,
+				2AF156AD23ACB25C00114465 /* YCProfileModel.swift in Sources */,
+				2ADC165823FB7ED800A57BB5 /* YCNewCarLuxuryBrandModel.swift in Sources */,
+				2AF156BA23ACB25C00114465 /* YCShowMorePerProductView.swift in Sources */,
+				2A34F4F923F38492002BF063 /* YCNewCarLuxuryBrandViewController.swift in Sources */,
+				2AF1569B23ACB25C00114465 /* YCFortumModel.swift in Sources */,
+				2AF156B623ACB25C00114465 /* YCShowMoreModel.swift in Sources */,
+				2A1BC7BC23E912EE009692AC /* YCNewCarNewEnergyViewController.swift in Sources */,
+				2A1BC7CC23E9AB11009692AC /* YCNewCarEnergySelectConditionsView.swift in Sources */,
+				2A2D221C23E542520035A735 /* YCBasePagerViewController.swift in Sources */,
+				2AF1568823ACB25C00114465 /* YCCarBrandHeaderView.swift in Sources */,
+				2AA40F3E23EE4B6300775032 /* YCNewCarEnergyWorthToBuyView.swift in Sources */,
+				2AF1568523ACB25C00114465 /* YCCustomPagerCell.swift in Sources */,
+				2AF1569423ACB25C00114465 /* YCFortumBuyCarViewController.swift in Sources */,
+				2AF1568223ACB25C00114465 /* YCUsedCarViewController.swift in Sources */,
+				2A498D8E23BC94D20092AD37 /* YCADType2Cell.swift in Sources */,
+				2A2793AF23BA0AAD00103659 /* YCHomeType4Cell.swift in Sources */,
+				2AF1569723ACB25C00114465 /* YCFortumCarUseViewController.swift in Sources */,
+				2A498D9223BCD9500092AD37 /* YCHomeVideoCell.swift in Sources */,
+				2AD21C3323CE895E0052E098 /* YCHomeShortVideoCell.swift in Sources */,
+				2AF156BB23ACB25C00114465 /* YCNewCarViewController.swift in Sources */,
+				2AF156A223ACB25C00114465 /* YCForumViewController.swift in Sources */,
+				2AF1568423ACB25C00114465 /* YCCarBrandCell.swift in Sources */,
+				2AF156A423ACB25C00114465 /* Constant.swift in Sources */,
+				2A26DD4F23B8E65600FCC77D /* YCHomeModel.swift in Sources */,
+				2ADC165E23FB82A200A57BB5 /* YCNewCarLuxuryBrandHeaderView.swift in Sources */,
+				2A2A6E0D23CAA75E00F67A94 /* YCHomeAliveHeaderPagerCell.swift in Sources */,
+				2AF1569123ACB25C00114465 /* AppDelegate.swift in Sources */,
+				2AF156B523ACB25C00114465 /* YCShowMoreViewController.swift in Sources */,
+				2A458EF023FE8C9A00AC5454 /* YCNewCarParallelImportViewController.swift in Sources */,
+				2AF1569523ACB25C00114465 /* YCFortumLifeViewController.swift in Sources */,
+				2AF156B923ACB25C00114465 /* YCShowMoreCellNode.swift in Sources */,
+				2AF156AE23ACB25C00114465 /* YCProfileHeaderView.swift in Sources */,
+				2AF156AF23ACB25C00114465 /* YCCarView.swift in Sources */,
+				2A2802F823C9C76D007EA7EF /* YCHomeAliveHeaderView.swift in Sources */,
+				2AF156B123ACB25C00114465 /* YCProfileTopView.swift in Sources */,
+				2A2793A523BA02C300103659 /* YCHomeAreaViewController.swift in Sources */,
+				2AF1569E23ACB25C00114465 /* YCFortumDriverViewController.swift in Sources */,
+				2A2793AA23BA03E000103659 /* YCHomeBaseViewController.swift in Sources */,
+				2AF156B423ACB25C00114465 /* YCCarCoinButton.swift in Sources */,
+				2AA40F4023EE4FF700775032 /* YCNewCarNewEnergyBrandView.swift in Sources */,
+				2AF156AC23ACB25C00114465 /* YCProfileViewController.swift in Sources */,
+				2AF156B023ACB25C00114465 /* YCCarCoinView.swift in Sources */,
+				2A1BC7C823E91E5D009692AC /* YCNewCarNewEnergyHeaderView.swift in Sources */,
+				2A458EE423FE618400AC5454 /* YCNewCarLuxuryBrandSelectOptionView.swift in Sources */,
+				2A2802F523C9C106007EA7EF /* YCHomeAliveMode.swift in Sources */,
+				2A458EED23FE89BF00AC5454 /* YCNewCarPreferentialBrandViewController.swift in Sources */,
+				2AF1569823ACB25C00114465 /* YCFortumBayViewController.swift in Sources */,
+				2AF1567123ACB25C00114465 /* UIImage+Extension.swift in Sources */,
+				2A458EE223FE1ED800AC5454 /* YCNewCarLuxuryBrandModelTagsDynamicView.swift in Sources */,
+				2A22612123C0884100586045 /* YCHomeAreaHeaderView.swift in Sources */,
+				2A1E93D823E17E2C00D9C894 /* CSTitleView.swift in Sources */,
+				2A458EF923FE911F00AC5454 /* YCNewCarPreferentialBrandModel.swift in Sources */,
+				2AF1569F23ACB25C00114465 /* YCChoicenessViewController.swift in Sources */,
+				2AD21C3023CE88BE0052E098 /* WaterFlowLayout.swift in Sources */,
+				2AF1567323ACB25C00114465 /* UIView+Frame.swift in Sources */,
+				2AF1569C23ACB25C00114465 /* YCFortumCell.swift in Sources */,
+				2A27939723B99B5B00103659 /* YCHomeRecommendViewController.swift in Sources */,
+				2AF156A023ACB25C00114465 /* YCFortumHelperViewController.swift in Sources */,
+				2A3D31E823EBA9BA00C6F9BC /* YCNewEnergyPriceReduceListView.swift in Sources */,
+				2A458EF623FE8FE100AC5454 /* YCNewCarParallelImportHeaderView.swift in Sources */,
+				2A1BC7CA23E92011009692AC /* YCNewEnergyModel.swift in Sources */,
+				2A219F7E23B85C9800A42C5A /* YCHomeHeaderView.swift in Sources */,
+				2AD21C3C23CEA8DF0052E098 /* YCHomeShortVideoTagsView.swift in Sources */,
+				2AD21C3E23CEAB4A0052E098 /* YCHomeShortVideoTagView.swift in Sources */,
+				2A34F4FC23F38D53002BF063 /* YCNewCarLuxuryBrandCell.swift in Sources */,
+				2AF156BE23ACB25C00114465 /* YCNavigationController.swift in Sources */,
+				2AF156B223ACB25C00114465 /* YCCarServiceView.swift in Sources */,
+				2AF156B323ACB25C00114465 /* YCProfileCell.swift in Sources */,
+				2A311B7F23EE9C6600A0104E /* YCNewCarNewEnergyRecommendHeaderView.swift in Sources */,
+				2AF156B823ACB25C00114465 /* YCSHowMoreHeaderView.swift in Sources */,
+				2AF156A623ACB25C00114465 /* YCCustomButton.swift in Sources */,
+				2A3D31EA23EBABB600C6F9BC /* YCNewCarEnergyPerCarItemView.swift in Sources */,
+				2AF1569323ACB25C00114465 /* YCFortumChangeViewController.swift in Sources */,
+				2AF1567423ACB25C00114465 /* LocationManager.swift in Sources */,
+				2AF1569D23ACB25C00114465 /* YCFortumPagerViewController.swift in Sources */,
+				2A458EF323FE8F9F00AC5454 /* YCNewCarPreferentialBrandHeaderView.swift in Sources */,
+				2A2802FA23C9C912007EA7EF /* YCHomeAliveCell.swift in Sources */,
+				2AF1567223ACB25C00114465 /* YCUtils.swift in Sources */,
+				2AF1569223ACB25C00114465 /* YCFortumPhotoViewController.swift in Sources */,
+				2AF1569A23ACB25C00114465 /* YCFortumYardViewController.swift in Sources */,
+				2ADDF3E323E6F71300C40FB3 /* YCNewCarHeaderView.swift in Sources */,
+				2AF156A123ACB25C00114465 /* YCFortumPartyViewController.swift in Sources */,
+				2A2D221823E50DA50035A735 /* YCNewCarCell.swift in Sources */,
+				2A2793B123BA0ACC00103659 /* YCHomeType20Cell.swift in Sources */,
+				2A2793A723BA02CD00103659 /* YCHomeAliveViewController.swift in Sources */,
+				2A90AC7923C15953000311D8 /* YCHomeType30Cell.swift in Sources */,
+				2AF156BD23ACB25C00114465 /* YCBaseViewController.swift in Sources */,
+				2A2D221A23E5100D0035A735 /* YCNewCarModel.swift in Sources */,
+				2AF156A823ACB25C00114465 /* UIColor+Extenssion.swift in Sources */,
+				2AF156A523ACB25C00114465 /* UIDevice+Extension.swift in Sources */,
+				2AF156B723ACB25C00114465 /* YCShowMoreTitleView.swift in Sources */,
+				2A8B18FD23B22D1B00B2338B /* YCAccountManager.swift in Sources */,
+				2AD21C3A23CE929C0052E098 /* YCHomeShortVideoModel.swift in Sources */,
+				2AF1568723ACB25C00114465 /* YCUsedCarHeaderView.swift in Sources */,
+				2A2793B323BA0B0C00103659 /* YCHomeType41Cell.swift in Sources */,
+				2AF1567023ACB25C00114465 /* Kingfisher+Extension.swift in Sources */,
+				2AF156A723ACB25C00114465 /* UIImage+Color.swift in Sources */,
+				2A2793AD23BA0A8A00103659 /* YCHomeType21Cell.swift in Sources */,
+				2A22611E23C071D700586045 /* YCHomeAreaModel.swift in Sources */,
+				2AF156BC23ACB25C00114465 /* YCTabBarController.swift in Sources */,
+				2A935435240529A100EF84CF /* YCNewCarParallelImportModel.swift in Sources */,
+				2AF1566F23ACB25C00114465 /* YCHomeViewController.swift in Sources */,
+				2AD47F8C23EFE6A000191BB1 /* NavigationItemTitleView.swift in Sources */,
+				2A2AF76223D8314800A7DD49 /* ViewController.swift in Sources */,
+				2AF156A323ACB25C00114465 /* YCForumHeaderView.swift in Sources */,
+				2A2902FC23CD35B600222AF3 /* YCHomeAliveHeaderRecUserCell.swift in Sources */,
+				2AF1569923ACB25C00114465 /* YCFortumWomanViewController.swift in Sources */,
+				2AF1568623ACB25C00114465 /* YCUsedCarFavorView.swift in Sources */,
+				2AF1568323ACB25C00114465 /* YCUsedCarModels.swift in Sources */,
+				2AF1569623ACB25C00114465 /* YCFortumTravelViewController.swift in Sources */,
+				2A498D9523BCDB9F0092AD37 /* YCHomeVideoModel.swift in Sources */,
+				2A2793B623BA0EC700103659 /* HomeModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2A5FA67723ACB09C00E76505 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2A5FA67823ACB09C00E76505 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A5FA67A23ACB09C00E76505 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F31AF49EB1891BA39C60A83 /* Pods-qichehui.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2K4RD85QDN;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/qichehui/Swift-Bridge-Objective-C.h";
+				INFOPLIST_FILE = qichehui/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.smart.qichehui;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2A5FA67B23ACB09C00E76505 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 107B863DAE33AF6E5CF3A100 /* Pods-qichehui.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2K4RD85QDN;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/qichehui/Swift-Bridge-Objective-C.h";
+				INFOPLIST_FILE = qichehui/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.smart.qichehui;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A5FA66023ACB09A00E76505 /* Build configuration list for PBXProject "qichehui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A5FA67723ACB09C00E76505 /* Debug */,
+				2A5FA67823ACB09C00E76505 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A5FA67923ACB09C00E76505 /* Build configuration list for PBXNativeTarget "qichehui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A5FA67A23ACB09C00E76505 /* Debug */,
+				2A5FA67B23ACB09C00E76505 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A5FA65D23ACB09A00E76505 /* Project object */;
+}

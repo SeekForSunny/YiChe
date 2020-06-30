@@ -1,0 +1,40 @@
+# Uncomment the next line to define a global platform for your project
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '9.0'
+
+target 'qichehui' do
+    # Comment the next line if you don't want to use dynamic frameworks
+    use_frameworks!
+    inhibit_all_warnings!
+    
+    # Pods for qichehui
+    
+    pod 'Alamofire'
+    pod 'SwiftyJSON'
+    
+    # 对象转模型
+    pod 'ObjectMapper'
+    pod 'HandyJSON'
+    
+    pod 'SnapKit'
+    pod "Texture"
+    
+    pod 'Kingfisher'
+    
+    pod 'RTRootNavigationController'
+    
+    pod 'FSPagerView'
+    
+    # 内存检测
+    pod 'MLeaksFinder'
+    
+end
+
+# Swift 版本声明
+post_install do |installer|
+    installer.pods_project.targets.each do |target|
+        target.build_configurations.each do |config|
+            config.build_settings['SWIFT_VERSION'] = '4.2'
+        end
+    end
+end

@@ -19,3 +19,7 @@
 我的
 
 ![image](https://github.com/SeekForSunny/YiChe/blob/master/preview/pre_5.jpg)
+
+
+效果预览
+![image](https://github.com/SeekForSunny/YiChe/blob/master/preview/pre.gif)

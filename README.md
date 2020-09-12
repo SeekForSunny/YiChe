@@ -2,7 +2,7 @@
 
 首页
 
-![image](https://github.com/SeekForSunny/YiChe/blob/master/preview/pre_1.jpg)
+![image](https://github.com/SeekForSunny/YiChe/blob/master/preview/pre_1.jpg width='375')
 
 论坛
 
